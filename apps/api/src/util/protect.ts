@@ -1,11 +1,12 @@
 import jwt from "jsonwebtoken";
-import { User } from "../models/usersDB/UserModel";
+import { User, Users } from "../models/usersDB/UserModel";
 import { Context } from "elysia";
-import { message } from "./json";
+import { MessageT, message } from "./json";
+import { logError } from "./logging";
 
 const JWT_SECRET = process.env.JWT_SECRET || "";
 
-export const PROTECTION_LEVEL = Object.freeze({
+export const ACCOUNT_LEVEL = Object.freeze({
 	"UNVERIFIED": 0,
 	"NONE": 0, //alias for UNVERIFIED
 	"BASE": 1,
@@ -14,80 +15,141 @@ export const PROTECTION_LEVEL = Object.freeze({
 	"SUPERUSER": 4,
 });
 
+//verifies that user has provided valid token in headers and that their account is at the appropriate access level,
+// and binds the associated user object to the protected function
+//sets content type to application/json
+export async function protectAndBind<
+	T extends { set: Context["set"] },
+	U,
+	V = U,
+	W = U,
+>(
+	bearer: string | undefined,
+	level: ProtectionLevel,
+	protecting: (user: User, ctx: T) => U | Promise<U>,
+	fallback?: (user: User, ctx: T) => V | Promise<V>,
+	fallbackLevel: ProtectionLevel = ACCOUNT_LEVEL.NONE,
+	noTokenFallback?: (ctx: T) => W | Promise<W>
+): Promise<(ctx: T) => U | V | W | Promise<U | V | W> | MessageT> {
+	if (!bearer) {
+		if (noTokenFallback) return noTokenFallback;
+		return out(message("Unauthorized: No token"), 401);
+	}
+
+	try {
+		const token = bearer;
+
+		if (!token && noTokenFallback) return noTokenFallback;
+
+		const user = await getUserFromToken(token);
+
+		if (!token || !user) {
+			return out(message("Unauthorized: Invalid token"), 403);
+		}
+
+		const access = user.accountType >= level;
+		if (access) {
+			return protecting.bind(null, user);
+		}
+		if (fallback && user.accountType >= fallbackLevel) {
+			return fallback.bind(null, user);
+		}
+		return out(
+			message(
+				"Forbidden: You do not have permission to access this endpoint"
+			),
+			403
+		);
+	} catch (e) {
+		logError("Error running user authentication: " + e);
+		return out(
+			message("Internal server error while authorizing user"),
+			500
+		);
+	}
+}
+
+//guards the function to ensure the user is verified but does NOT bind the user object to the function
+export async function protect<
+	T extends { set: Context["set"] },
+	U,
+	V = U,
+	W = U,
+>(
+	bearer: string | undefined,
+	level: ProtectionLevel,
+	protecting: (ctx: T) => U | Promise<U>,
+	fallback?: (ctx: T) => V | Promise<V>,
+	fallbackLevel: ProtectionLevel = ACCOUNT_LEVEL.NONE,
+	noTokenFallback?: (ctx: T) => W | Promise<W>
+): Promise<(ctx: T) => U | V | W | Promise<U | W | V> | MessageT> {
+	if (!bearer) {
+		if (noTokenFallback) return noTokenFallback;
+		return out(message("Unauthorized: No token"), 401);
+	}
+
+	try {
+		const token = bearer;
+
+		if (!token && noTokenFallback) return noTokenFallback;
+
+		const user = await getUserFromToken(token);
+
+		if (!token || !user) {
+			return out(message("Unauthorized: Invalid token"), 403);
+		}
+
+		const access = user.accountType >= level;
+		if (access) {
+			return protecting;
+		}
+		if (fallback && user.accountType >= fallbackLevel) {
+			return fallback;
+		}
+		return out(
+			message(
+				"Forbidden: You do not have permission to access this endpoint"
+			),
+			403
+		);
+	} catch (e) {
+		logError("Error running user authentication: " + e);
+		return out(
+			message("Internal server error while authorizing user"),
+			500
+		);
+	}
+}
+
+//#region helper functions & types
+
+async function getUserFromToken(token: string): Promise<User | null> {
+	try {
+		const decoded = jwt.verify(token, JWT_SECRET) as { id: string };
+
+		return await Users.findById(decoded.id);
+	} catch (e) {
+		logError(`Error getting user from token: ${e}`);
+
+		return null;
+	}
+}
+
+type ProtectionLevel = (typeof ACCOUNT_LEVEL)[keyof typeof ACCOUNT_LEVEL];
+
+//returns a dummy function that takes in context as a param but always returns the same given response, and sets the status to the given status as a side effect
+function out<T extends { set: Context["set"] }, U>(
+	x: U,
+	status: number
+): (param: T) => U {
+	return function (ctx: T) {
+		ctx.set.status = status;
+		return x;
+	};
+}
+
 export function generateToken(id: string) {
 	return jwt.sign({ id }, JWT_SECRET);
 }
 
-type ProtectionLevel = (typeof PROTECTION_LEVEL)[keyof typeof PROTECTION_LEVEL];
-
-export interface ProtectedContext extends Context {
-	user: User;
-}
-
-export async function protect(
-	level: ProtectionLevel,
-	ctx: Context,
-	protecting: (ctx: ProtectedContext) => string | Promise<string>,
-	fallback?: (ctx: ProtectedContext) => string | Promise<string>
-): Promise<string> {
-	const { headers } = ctx;
-
-	ctx.set.headers["Content-Type"] = "application/json";
-
-	//#region Old Code
-	// let token: string | undefined;
-	// let usr: User | undefined | null;
-	// if (headers.authorization && headers.authorization.startsWith("Bearer")) {
-	// 	try {
-	// 		// Set token from Bearer token in header
-	// 		token = headers.authorization.split(" ")[1];
-
-	// 		// Verify token
-	// 		const decoded = jwt.verify(token, JWT_SECRET) as { id: string };
-
-	// 		// Get user from token
-	// 		usr = await User.findById(decoded.id);
-	// 	} catch (err) {
-	// 		console.log(err);
-	// 		ctx.set.status = 401;
-	// 		return () => message("Unauthorized");
-	// 	}
-	// }
-
-	// const user = usr;
-
-	//#endregion
-
-	if (
-		!(headers.authorization && headers.authorization.startsWith("Bearer"))
-	) {
-		ctx.set.status = 401;
-		return message("Unauthorized: No token");
-	}
-
-	try {
-		const token = headers.authorization.split(" ")[1];
-
-		const decoded = jwt.verify(token, JWT_SECRET) as { id: string };
-
-		const user = await User.findById(decoded.id);
-
-		if (!token || !user) {
-			ctx.set.status = 401;
-			return message("Unauthorized: No token");
-		}
-
-		const accountType = user.accountType >= level;
-		if (accountType) {
-			return await protecting({ ...ctx, user });
-		}
-		if (fallback) {
-			return await fallback({ ...ctx, user });
-		}
-		ctx.set.status = 401;
-		return message("Unauthorized");
-	} catch {
-		ctx.set.status = 401;
-		return message("Unauthorized: Invalid token");
-	}
-}
+//#endregion

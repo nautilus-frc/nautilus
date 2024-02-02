@@ -1,0 +1,2014 @@
+🟢 2024-02-01T08:00:54.561Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:01:37.904Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:01:37.915Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:01:58.633Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:01:58.640Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:02:50.277Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:03:04.068Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:03:04.074Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:03:29.256Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:04:05.909Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:04:05.914Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:04:17.100Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:04:17.103Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:05:21.973Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:05:21.976Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:05:29.094Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:05:29.097Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:02.847Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:02.852Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:19.980Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:19.983Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:42.769Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:42.821Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:46.285Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:46.290Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:48.639Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:06:48.643Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:07:38.276Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:07:38.282Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:08:46.829Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:08:46.833Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:09:15.925Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:09:17.041Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:09:17.043Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:09:19.925Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:09:19.933Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:13:54.563Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:13:54.568Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:14:37.358Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:14:42.822Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:14:42.826Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:14:52.276Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:14:52.281Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:14:56.049Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:14:56.053Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:00.212Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:00.215Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:08.901Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:08.907Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:24.340Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:24.345Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:49.441Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:49.443Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:15:56.864Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:16:01.324Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:16:01.327Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:16:52.175Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:16:52.179Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:16:58.371Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:16:58.374Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:17:35.976Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:17:35.982Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:17:39.868Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:17:39.870Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:18:03.125Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:18:03.132Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:18:38.269Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:18:52.735Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:18:52.738Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:19:19.963Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:19:19.967Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:19:34.094Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:19:48.094Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:20:12.992Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:20:12.996Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:22:42.822Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:22:51.407Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:22:51.463Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:23:32.052Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:23:32.099Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:23:36.693Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:23:36.700Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+2024-02-01T08:23:53.947Z Recieved POST request  at /users/login with body {"username":"test","password":"1234"}
+2024-02-01T08:23:54.087Z Responded to POST request  at /users/login with status 200
+🟢 2024-02-01T08:24:24.820Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:24:24.823Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:24:46.967Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:24:46.970Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:25:04.271Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:25:04.277Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:25:27.911Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:25:27.914Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:27:30.741Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:27:30.749Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:27:33.621Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:27:33.624Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:28:47.000Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:28:47.007Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:29:08.816Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:30:10.796Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:30:10.804Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:30:29.801Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:30:29.810Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:30:48.920Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:30:48.929Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:31:12.853Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:31:12.856Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:31:25.293Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:31:25.296Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:31:36.672Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:31:36.675Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:32:13.125Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:32:27.382Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:32:45.903Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:32:54.832Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:32:54.886Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:33:14.743Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:33:17.248Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:33:17.251Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:33:18.364Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:34:11.530Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:34:11.543Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:34:16.227Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:34:16.230Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:34:24.287Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:36:14.377Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:36:14.382Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:36:20.050Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:38:26.009Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+2024-02-01T08:38:39.412Z Recieved GET request  at /users
+2024-02-01T08:38:39.521Z Responded to GET request  at /users with status 200
+2024-02-01T08:38:57.662Z Recieved GET request  at /users
+2024-02-01T08:38:57.758Z Responded to GET request  at /users with status 200
+2024-02-01T08:39:08.469Z Recieved GET request  at /users
+2024-02-01T08:39:08.601Z Responded to GET request  at /users with status 200
+🟢 2024-02-01T08:39:21.252Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:39:21.254Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+2024-02-01T08:39:23.041Z Recieved GET request  at /users
+2024-02-01T08:39:23.178Z Responded to GET request  at /users with status 200
+🟢 2024-02-01T08:39:35.104Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:39:35.107Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:39:41.506Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:39:41.511Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+2024-02-01T08:39:53.415Z Recieved GET request  at /users
+⚠️  2024-02-01T08:39:53.564Z ERROR: Error fulfilling GET at /users: {
+  "type": "response",
+  "at": "0/accountUpdateVersion",
+  "message": "Required property",
+  "expected": [],
+  "found": [
+    {
+      "_id": "65b992761255630fb7004449",
+      "username": "novamondal",
+      "firstname": "nova",
+      "lastname": "mondal",
+      "email": "nova.c.mondal@gmail.com",
+      "subteam": "software",
+      "roles": [],
+      "accountType": 4
+    },
+    {
+      "_id": "65b9a3b06d485f52a0fd0328",
+      "username": "test",
+      "firstname": "meow",
+      "lastname": "user",
+      "email": "test@test",
+      "subteam": "software",
+      "roles": [],
+      "accountType": 1
+    }
+  ],
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "number"
+      },
+      "path": "/0/accountUpdateVersion",
+      "message": "Required property"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "object",
+        "patternProperties": {
+          "^(.*)$": {
+            "type": "object",
+            "properties": {
+              "totalHoursLogged": {
+                "anyOf": [
+                  {
+                    "format": "numeric",
+                    "default": 0,
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "logs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "meetingId": {
+                      "type": "string"
+                    },
+                    "verifiedBy": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "meetingId",
+                    "verifiedBy"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "totalHoursLogged",
+              "logs"
+            ]
+          }
+        }
+      },
+      "path": "/0/attendance",
+      "message": "Required property"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "generalScouting": {
+            "type": "boolean"
+          },
+          "pitScouting": {
+            "type": "boolean"
+          },
+          "viewMeetings": {
+            "type": "boolean"
+          },
+          "viewScoutingData": {
+            "type": "boolean"
+          },
+          "blogPosts": {
+            "type": "boolean"
+          },
+          "deleteMeetings": {
+            "type": "boolean"
+          },
+          "makeAnnouncements": {
+            "type": "boolean"
+          },
+          "makeMeetings": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "generalScouting",
+          "pitScouting",
+          "viewMeetings",
+          "viewScoutingData",
+          "blogPosts",
+          "deleteMeetings",
+          "makeAnnouncements",
+          "makeMeetings"
+        ]
+      },
+      "path": "/0/permissions",
+      "message": "Required property"
+    },
+    {
+      "type": 41,
+      "schema": {
+        "type": "number"
+      },
+      "path": "/0/accountUpdateVersion",
+      "message": "Expected number"
+    },
+    {
+      "type": 46,
+      "schema": {
+        "type": "object",
+        "patternProperties": {
+          "^(.*)$": {
+            "type": "object",
+            "properties": {
+              "totalHoursLogged": {
+                "anyOf": [
+                  {
+                    "format": "numeric",
+                    "default": 0,
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "logs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "meetingId": {
+                      "type": "string"
+                    },
+                    "verifiedBy": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "meetingId",
+                    "verifiedBy"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "totalHoursLogged",
+              "logs"
+            ]
+          }
+        }
+      },
+      "path": "/0/attendance",
+      "message": "Expected object"
+    },
+    {
+      "type": 46,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "generalScouting": {
+            "type": "boolean"
+          },
+          "pitScouting": {
+            "type": "boolean"
+          },
+          "viewMeetings": {
+            "type": "boolean"
+          },
+          "viewScoutingData": {
+            "type": "boolean"
+          },
+          "blogPosts": {
+            "type": "boolean"
+          },
+          "deleteMeetings": {
+            "type": "boolean"
+          },
+          "makeAnnouncements": {
+            "type": "boolean"
+          },
+          "makeMeetings": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "generalScouting",
+          "pitScouting",
+          "viewMeetings",
+          "viewScoutingData",
+          "blogPosts",
+          "deleteMeetings",
+          "makeAnnouncements",
+          "makeMeetings"
+        ]
+      },
+      "path": "/0/permissions",
+      "message": "Expected object"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "number"
+      },
+      "path": "/1/accountUpdateVersion",
+      "message": "Required property"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "object",
+        "patternProperties": {
+          "^(.*)$": {
+            "type": "object",
+            "properties": {
+              "totalHoursLogged": {
+                "anyOf": [
+                  {
+                    "format": "numeric",
+                    "default": 0,
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "logs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "meetingId": {
+                      "type": "string"
+                    },
+                    "verifiedBy": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "meetingId",
+                    "verifiedBy"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "totalHoursLogged",
+              "logs"
+            ]
+          }
+        }
+      },
+      "path": "/1/attendance",
+      "message": "Required property"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "generalScouting": {
+            "type": "boolean"
+          },
+          "pitScouting": {
+            "type": "boolean"
+          },
+          "viewMeetings": {
+            "type": "boolean"
+          },
+          "viewScoutingData": {
+            "type": "boolean"
+          },
+          "blogPosts": {
+            "type": "boolean"
+          },
+          "deleteMeetings": {
+            "type": "boolean"
+          },
+          "makeAnnouncements": {
+            "type": "boolean"
+          },
+          "makeMeetings": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "generalScouting",
+          "pitScouting",
+          "viewMeetings",
+          "viewScoutingData",
+          "blogPosts",
+          "deleteMeetings",
+          "makeAnnouncements",
+          "makeMeetings"
+        ]
+      },
+      "path": "/1/permissions",
+      "message": "Required property"
+    },
+    {
+      "type": 41,
+      "schema": {
+        "type": "number"
+      },
+      "path": "/1/accountUpdateVersion",
+      "message": "Expected number"
+    },
+    {
+      "type": 46,
+      "schema": {
+        "type": "object",
+        "patternProperties": {
+          "^(.*)$": {
+            "type": "object",
+            "properties": {
+              "totalHoursLogged": {
+                "anyOf": [
+                  {
+                    "format": "numeric",
+                    "default": 0,
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "logs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "meetingId": {
+                      "type": "string"
+                    },
+                    "verifiedBy": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "meetingId",
+                    "verifiedBy"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "totalHoursLogged",
+              "logs"
+            ]
+          }
+        }
+      },
+      "path": "/1/attendance",
+      "message": "Expected object"
+    },
+    {
+      "type": 46,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "generalScouting": {
+            "type": "boolean"
+          },
+          "pitScouting": {
+            "type": "boolean"
+          },
+          "viewMeetings": {
+            "type": "boolean"
+          },
+          "viewScoutingData": {
+            "type": "boolean"
+          },
+          "blogPosts": {
+            "type": "boolean"
+          },
+          "deleteMeetings": {
+            "type": "boolean"
+          },
+          "makeAnnouncements": {
+            "type": "boolean"
+          },
+          "makeMeetings": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "generalScouting",
+          "pitScouting",
+          "viewMeetings",
+          "viewScoutingData",
+          "blogPosts",
+          "deleteMeetings",
+          "makeAnnouncements",
+          "makeMeetings"
+        ]
+      },
+      "path": "/1/permissions",
+      "message": "Expected object"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "response",
+  "at": "0/accountUpdateVersion",
+  "message": "Required property",
+  "expected": [],
+  "found": [
+    {
+      "_id": "65b992761255630fb7004449",
+      "username": "novamondal",
+      "firstname": "nova",
+      "lastname": "mondal",
+      "email": "nova.c.mondal@gmail.com",
+      "subteam": "software",
+      "roles": [],
+      "accountType": 4
+    },
+    {
+      "_id": "65b9a3b06d485f52a0fd0328",
+      "username": "test",
+      "firstname": "meow",
+      "lastname": "user",
+      "email": "test@test",
+      "subteam": "software",
+      "roles": [],
+      "accountType": 1
+    }
+  ],
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "number"
+      },
+      "path": "/0/accountUpdateVersion",
+      "message": "Required property"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "object",
+        "patternProperties": {
+          "^(.*)$": {
+            "type": "object",
+            "properties": {
+              "totalHoursLogged": {
+                "anyOf": [
+                  {
+                    "format": "numeric",
+                    "default": 0,
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "logs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "meetingId": {
+                      "type": "string"
+                    },
+                    "verifiedBy": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "meetingId",
+                    "verifiedBy"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "totalHoursLogged",
+              "logs"
+            ]
+          }
+        }
+      },
+      "path": "/0/attendance",
+      "message": "Required property"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "generalScouting": {
+            "type": "boolean"
+          },
+          "pitScouting": {
+            "type": "boolean"
+          },
+          "viewMeetings": {
+            "type": "boolean"
+          },
+          "viewScoutingData": {
+            "type": "boolean"
+          },
+          "blogPosts": {
+            "type": "boolean"
+          },
+          "deleteMeetings": {
+            "type": "boolean"
+          },
+          "makeAnnouncements": {
+            "type": "boolean"
+          },
+          "makeMeetings": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "generalScouting",
+          "pitScouting",
+          "viewMeetings",
+          "viewScoutingData",
+          "blogPosts",
+          "deleteMeetings",
+          "makeAnnouncements",
+          "makeMeetings"
+        ]
+      },
+      "path": "/0/permissions",
+      "message": "Required property"
+    },
+    {
+      "type": 41,
+      "schema": {
+        "type": "number"
+      },
+      "path": "/0/accountUpdateVersion",
+      "message": "Expected number"
+    },
+    {
+      "type": 46,
+      "schema": {
+        "type": "object",
+        "patternProperties": {
+          "^(.*)$": {
+            "type": "object",
+            "properties": {
+              "totalHoursLogged": {
+                "anyOf": [
+                  {
+                    "format": "numeric",
+                    "default": 0,
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "logs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "meetingId": {
+                      "type": "string"
+                    },
+                    "verifiedBy": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "meetingId",
+                    "verifiedBy"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "totalHoursLogged",
+              "logs"
+            ]
+          }
+        }
+      },
+      "path": "/0/attendance",
+      "message": "Expected object"
+    },
+    {
+      "type": 46,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "generalScouting": {
+            "type": "boolean"
+          },
+          "pitScouting": {
+            "type": "boolean"
+          },
+          "viewMeetings": {
+            "type": "boolean"
+          },
+          "viewScoutingData": {
+            "type": "boolean"
+          },
+          "blogPosts": {
+            "type": "boolean"
+          },
+          "deleteMeetings": {
+            "type": "boolean"
+          },
+          "makeAnnouncements": {
+            "type": "boolean"
+          },
+          "makeMeetings": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "generalScouting",
+          "pitScouting",
+          "viewMeetings",
+          "viewScoutingData",
+          "blogPosts",
+          "deleteMeetings",
+          "makeAnnouncements",
+          "makeMeetings"
+        ]
+      },
+      "path": "/0/permissions",
+      "message": "Expected object"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "number"
+      },
+      "path": "/1/accountUpdateVersion",
+      "message": "Required property"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "object",
+        "patternProperties": {
+          "^(.*)$": {
+            "type": "object",
+            "properties": {
+              "totalHoursLogged": {
+                "anyOf": [
+                  {
+                    "format": "numeric",
+                    "default": 0,
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "logs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "meetingId": {
+                      "type": "string"
+                    },
+                    "verifiedBy": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "meetingId",
+                    "verifiedBy"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "totalHoursLogged",
+              "logs"
+            ]
+          }
+        }
+      },
+      "path": "/1/attendance",
+      "message": "Required property"
+    },
+    {
+      "type": 45,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "generalScouting": {
+            "type": "boolean"
+          },
+          "pitScouting": {
+            "type": "boolean"
+          },
+          "viewMeetings": {
+            "type": "boolean"
+          },
+          "viewScoutingData": {
+            "type": "boolean"
+          },
+          "blogPosts": {
+            "type": "boolean"
+          },
+          "deleteMeetings": {
+            "type": "boolean"
+          },
+          "makeAnnouncements": {
+            "type": "boolean"
+          },
+          "makeMeetings": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "generalScouting",
+          "pitScouting",
+          "viewMeetings",
+          "viewScoutingData",
+          "blogPosts",
+          "deleteMeetings",
+          "makeAnnouncements",
+          "makeMeetings"
+        ]
+      },
+      "path": "/1/permissions",
+      "message": "Required property"
+    },
+    {
+      "type": 41,
+      "schema": {
+        "type": "number"
+      },
+      "path": "/1/accountUpdateVersion",
+      "message": "Expected number"
+    },
+    {
+      "type": 46,
+      "schema": {
+        "type": "object",
+        "patternProperties": {
+          "^(.*)$": {
+            "type": "object",
+            "properties": {
+              "totalHoursLogged": {
+                "anyOf": [
+                  {
+                    "format": "numeric",
+                    "default": 0,
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "logs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "meetingId": {
+                      "type": "string"
+                    },
+                    "verifiedBy": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "meetingId",
+                    "verifiedBy"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "totalHoursLogged",
+              "logs"
+            ]
+          }
+        }
+      },
+      "path": "/1/attendance",
+      "message": "Expected object"
+    },
+    {
+      "type": 46,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "generalScouting": {
+            "type": "boolean"
+          },
+          "pitScouting": {
+            "type": "boolean"
+          },
+          "viewMeetings": {
+            "type": "boolean"
+          },
+          "viewScoutingData": {
+            "type": "boolean"
+          },
+          "blogPosts": {
+            "type": "boolean"
+          },
+          "deleteMeetings": {
+            "type": "boolean"
+          },
+          "makeAnnouncements": {
+            "type": "boolean"
+          },
+          "makeMeetings": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "generalScouting",
+          "pitScouting",
+          "viewMeetings",
+          "viewScoutingData",
+          "blogPosts",
+          "deleteMeetings",
+          "makeAnnouncements",
+          "makeMeetings"
+        ]
+      },
+      "path": "/1/permissions",
+      "message": "Expected object"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:67:28)
+    at processTicksAndRejections (:12:39)  ⚠️
+🟢 2024-02-01T08:40:08.654Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:40:08.662Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+2024-02-01T08:40:10.511Z Recieved GET request  at /users
+2024-02-01T08:40:10.640Z Responded to GET request  at /users with status 200
+🟢 2024-02-01T08:41:58.964Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:41:58.967Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:42:04.390Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:42:04.437Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:42:36.760Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:42:36.771Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:42:45.108Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:42:57.249Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:42:57.252Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:43:07.807Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:43:16.280Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:43:16.290Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:43:22.756Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:43:22.761Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:48:51.539Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:48:51.543Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:49:18.723Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:49:18.777Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:49:43.995Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:49:44.002Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:49:55.419Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:49:55.422Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:50:13.163Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:50:24.443Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:50:24.448Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:50:39.980Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:50:39.981Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:50:52.902Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:50:52.910Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:51:21.620Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:51:21.622Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:51:51.973Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:51:51.976Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:52:20.755Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:52:30.405Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:52:30.457Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:53:05.251Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:53:05.254Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:53:20.786Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:53:33.772Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:53:33.775Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:53:52.346Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:53:52.351Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:54:04.358Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:54:04.361Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:54:57.053Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:55:25.195Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:57:14.654Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:57:14.657Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:57:23.816Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:57:28.083Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:57:28.134Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:58:05.465Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:58:05.474Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:58:36.502Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:58:36.555Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:58:42.557Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:58:42.561Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T08:59:02.187Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T09:03:57.064Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T09:03:57.069Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T22:33:20.594Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T22:33:20.643Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+⚠️  2024-02-01T22:33:38.311Z ERROR: Error fulfilling GET at /favicon.ico: NOT_FOUND  ⚠️
+🟢 2024-02-01T22:51:21.642Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+2024-02-01T22:52:34.506Z Recieved GET request  at /users
+2024-02-01T22:52:34.701Z Responded to GET request  at /users with status 200
+⚠️  2024-02-01T22:52:44.260Z ERROR: Error fulfilling GET at /users: Can only create template literals that produce a finite variants. Consider using a default value.
+Stacktrace: 
+Error: Can only create template literals that produce a finite variants. Consider using a default value.
+    at new TypeBoxError (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/@sinclair/typebox/build/import/type/error/error.mjs:3:21)
+    at new ValueCreateError (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/@sinclair/typebox/build/import/value/create/create.mjs:351:10)
+    at FromTemplateLiteral (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/@sinclair/typebox/build/import/value/create/create.mjs:205:31)
+    at <anonymous> (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/@sinclair/typebox/build/import/value/create/create.mjs:142:56)
+    at reduce (:1:11)
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19122)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+🟢 2024-02-01T22:53:13.847Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+⚠️  2024-02-01T22:53:24.409Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Expected string to match '^Bearer $'",
+  "expected": {
+    "authorization": "Bearer "
+  },
+  "found": {
+    "authorization": "b",
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "3608f519-6e90-4eae-80cf-192bc550833f"
+  },
+  "errors": [
+    {
+      "type": 53,
+      "schema": {
+        "type": "string",
+        "pattern": "^Bearer $"
+      },
+      "path": "/authorization",
+      "value": "b",
+      "message": "Expected string to match '^Bearer $'"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Expected string to match '^Bearer $'",
+  "expected": {
+    "authorization": "Bearer "
+  },
+  "found": {
+    "authorization": "b",
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "3608f519-6e90-4eae-80cf-192bc550833f"
+  },
+  "errors": [
+    {
+      "type": 53,
+      "schema": {
+        "type": "string",
+        "pattern": "^Bearer $"
+      },
+      "path": "/authorization",
+      "value": "b",
+      "message": "Expected string to match '^Bearer $'"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+⚠️  2024-02-01T22:53:33.694Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Expected string to match '^Bearer $'",
+  "expected": {
+    "authorization": "Bearer "
+  },
+  "found": {
+    "authorization": "Bearer",
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "a1d1ac48-4321-429d-ae46-77aa8dca3ba0"
+  },
+  "errors": [
+    {
+      "type": 53,
+      "schema": {
+        "type": "string",
+        "pattern": "^Bearer $"
+      },
+      "path": "/authorization",
+      "value": "Bearer",
+      "message": "Expected string to match '^Bearer $'"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Expected string to match '^Bearer $'",
+  "expected": {
+    "authorization": "Bearer "
+  },
+  "found": {
+    "authorization": "Bearer",
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "a1d1ac48-4321-429d-ae46-77aa8dca3ba0"
+  },
+  "errors": [
+    {
+      "type": 53,
+      "schema": {
+        "type": "string",
+        "pattern": "^Bearer $"
+      },
+      "path": "/authorization",
+      "value": "Bearer",
+      "message": "Expected string to match '^Bearer $'"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+⚠️  2024-02-01T22:53:36.608Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Expected string to match '^Bearer $'",
+  "expected": {
+    "authorization": "Bearer "
+  },
+  "found": {
+    "authorization": "Bearer",
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "1da95069-3dc1-45d8-94c7-cf50e1ac747b"
+  },
+  "errors": [
+    {
+      "type": 53,
+      "schema": {
+        "type": "string",
+        "pattern": "^Bearer $"
+      },
+      "path": "/authorization",
+      "value": "Bearer",
+      "message": "Expected string to match '^Bearer $'"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Expected string to match '^Bearer $'",
+  "expected": {
+    "authorization": "Bearer "
+  },
+  "found": {
+    "authorization": "Bearer",
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "1da95069-3dc1-45d8-94c7-cf50e1ac747b"
+  },
+  "errors": [
+    {
+      "type": 53,
+      "schema": {
+        "type": "string",
+        "pattern": "^Bearer $"
+      },
+      "path": "/authorization",
+      "value": "Bearer",
+      "message": "Expected string to match '^Bearer $'"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+⚠️  2024-02-01T22:53:40.966Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Expected string to match '^Bearer $'",
+  "expected": {
+    "authorization": "Bearer "
+  },
+  "found": {
+    "authorization": "Bearer .TemplateLiteral('prop${A|B|C}')",
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "c4a828ac-1520-40ee-bfab-6c439615b600"
+  },
+  "errors": [
+    {
+      "type": 53,
+      "schema": {
+        "type": "string",
+        "pattern": "^Bearer $"
+      },
+      "path": "/authorization",
+      "value": "Bearer .TemplateLiteral('prop${A|B|C}')",
+      "message": "Expected string to match '^Bearer $'"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Expected string to match '^Bearer $'",
+  "expected": {
+    "authorization": "Bearer "
+  },
+  "found": {
+    "authorization": "Bearer .TemplateLiteral('prop${A|B|C}')",
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "c4a828ac-1520-40ee-bfab-6c439615b600"
+  },
+  "errors": [
+    {
+      "type": 53,
+      "schema": {
+        "type": "string",
+        "pattern": "^Bearer $"
+      },
+      "path": "/authorization",
+      "value": "Bearer .TemplateLiteral('prop${A|B|C}')",
+      "message": "Expected string to match '^Bearer $'"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+🟢 2024-02-01T22:56:12.452Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T22:56:12.524Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+⚠️  2024-02-01T22:56:13.790Z ERROR: Responded to GET request  at /users with status 403  ⚠️
+2024-02-01T23:03:51.137Z Recieved GET request  at /users
+2024-02-01T23:03:51.327Z Responded to GET request  at /users with status 200
+🟢 2024-02-01T23:13:24.283Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:13:24.287Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:14:32.797Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:14:32.866Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:16:13.506Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:16:13.588Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:16:30.916Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:16:30.920Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:17:13.723Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:17:13.796Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:17:22.107Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:17:22.109Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:19:21.504Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:19:21.585Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:19:43.744Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:19:43.838Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:23:56.671Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:23:56.674Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:24:17.074Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:24:17.078Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:24:37.825Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:24:37.905Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:25:06.591Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:25:06.595Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:25:15.196Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:25:15.199Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:25:22.837Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:25:22.840Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:25:46.532Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:25:46.536Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:26:08.269Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:27:34.423Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:32:05.148Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:32:05.153Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:32:12.973Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:32:13.004Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:32:25.101Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:36:27.729Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:36:27.732Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:36:30.134Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:36:30.138Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:36:34.689Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:36:34.692Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:36:39.095Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-01T23:36:49.239Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:41:47.651Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:41:47.679Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:42:11.769Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:42:11.795Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:42:16.480Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:42:16.501Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:42:18.197Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:42:18.266Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+2024-02-01T23:42:36.783Z Recieved GET request  at /index.css with params {
+  "*": "index.css"
+}
+2024-02-01T23:42:36.790Z Responded to GET request  at /index.css with status 200
+⚠️  2024-02-01T23:42:44.771Z ERROR: Error fulfilling GET at /pages/reset: NOT_FOUND
+Stacktrace: 
+Error: NOT_FOUND
+    at new o (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:18413)
+    at <anonymous> (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/@elysiajs/static/dist/index.js:147:32)
+    at processTicksAndRejections (:12:39)  ⚠️
+2024-02-01T23:42:49.811Z Responded to GET request  at /pages/reset-password with status 200
+2024-02-01T23:42:49.832Z Recieved GET request  at /htmx.min.js with params {
+  "*": "htmx.min.js"
+}
+2024-02-01T23:42:49.833Z Responded to GET request  at /htmx.min.js with status 200
+2024-02-01T23:42:49.835Z Recieved GET request  at /index.css with params {
+  "*": "index.css"
+}
+2024-02-01T23:42:49.838Z Responded to GET request  at /index.css with status 200
+2024-02-01T23:42:57.382Z Recieved GET request  at /pages/reset-password
+2024-02-01T23:42:57.383Z Responded to GET request  at /pages/reset-password with status 200
+2024-02-01T23:42:57.430Z Recieved GET request  at /index.css with params {
+  "*": "index.css"
+}
+2024-02-01T23:42:57.432Z Responded to GET request  at /index.css with status 200
+2024-02-01T23:43:03.658Z Responded to GET request  at /pages/forgot-password with status 200
+2024-02-01T23:43:03.670Z Recieved GET request  at /htmx.min.js with params {
+  "*": "htmx.min.js"
+}
+2024-02-01T23:43:03.671Z Responded to GET request  at /htmx.min.js with status 200
+2024-02-01T23:43:03.693Z Recieved GET request  at /index.css with params {
+  "*": "index.css"
+}
+2024-02-01T23:43:03.696Z Responded to GET request  at /index.css with status 200
+⚠️  2024-02-01T23:43:16.620Z ERROR: Error fulfilling POST at /forgot: NOT_FOUND  ⚠️
+🟢 2024-02-01T23:43:44.460Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:43:44.501Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:43:59.186Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:43:59.250Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+⚠️  2024-02-01T23:44:02.339Z ERROR: Error fulfilling POST at /forgot: NOT_FOUND  ⚠️
+2024-02-01T23:44:03.893Z Responded to GET request  at /pages/forgot-password with status 200
+2024-02-01T23:44:03.938Z Recieved GET request  at /htmx.min.js with params {
+  "*": "htmx.min.js"
+}
+2024-02-01T23:44:03.945Z Recieved GET request  at /index.css with params {
+  "*": "index.css"
+}
+2024-02-01T23:44:03.951Z Responded to GET request  at /index.css with status 200
+2024-02-01T23:44:07.796Z Recieved POST request  at /pages/forgot with body {"email":"aslfkja@asdfasf"}
+2024-02-01T23:44:07.917Z Responded to POST request  at /pages/forgot with status 200
+2024-02-01T23:44:16.149Z Responded to GET request  at /pages/reset-password with status 200
+2024-02-01T23:44:16.160Z Recieved GET request  at /htmx.min.js with params {
+  "*": "htmx.min.js"
+}
+2024-02-01T23:44:16.164Z Responded to GET request  at /htmx.min.js with status 200
+2024-02-01T23:44:16.182Z Recieved GET request  at /index.css with params {
+  "*": "index.css"
+}
+2024-02-01T23:44:16.184Z Responded to GET request  at /index.css with status 200
+2024-02-01T23:44:29.819Z Responded to POST request  at /pages/reset with status 200
+🟢 2024-02-01T23:54:17.471Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:54:17.512Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-01T23:54:42.116Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:54:42.194Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:55:06.249Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:55:16.400Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-01T23:55:16.427Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+⚠️  2024-02-02T00:18:44.108Z ERROR: Error fulfilling GET at /swagger/swagger/json: NOT_FOUND
+Stacktrace: 
+Error: NOT_FOUND
+    at new o (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:18413)
+    at <anonymous> (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/@elysiajs/static/dist/index.js:147:32)
+    at processTicksAndRejections (:12:39)  ⚠️
+2024-02-02T00:18:48.398Z Recieved GET request  at /swagger/swagger/json with params {
+  "*": "swagger/swagger/json"
+}
+⚠️  2024-02-02T00:18:48.399Z ERROR: Error fulfilling GET at /swagger/swagger/json: NOT_FOUND
+Stacktrace: 
+Error: NOT_FOUND
+    at new o (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:18413)
+    at <anonymous> (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/@elysiajs/static/dist/index.js:147:32)
+    at processTicksAndRejections (:12:39)  ⚠️
+🟢 2024-02-02T00:20:50.517Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:20:50.617Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:21:50.817Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:21:50.845Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:21:54.307Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:21:54.376Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:23:22.333Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:23:32.849Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:23:40.181Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:23:40.214Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:23:42.081Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:23:42.144Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:24:43.969Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:24:54.939Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:24:54.944Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:27:29.757Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:27:29.819Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:28:41.411Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:28:41.412Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:28:48.069Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:28:48.150Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:29:00.829Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:29:00.830Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:29:11.951Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:29:11.955Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:30:07.323Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:30:07.351Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:30:26.797Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:30:26.844Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:32:00.926Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:32:11.721Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:32:11.724Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:32:21.330Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:32:21.363Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:37:42.161Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:37:42.182Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:38:03.412Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:38:22.905Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:38:22.915Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:38:35.707Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:38:35.711Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:38:45.065Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:39:23.187Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:39:23.217Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:45:15.094Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:45:15.172Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+⚠️  2024-02-02T00:45:22.360Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "1765ad63-4403-498c-9a36-8104b5b0957f"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "1765ad63-4403-498c-9a36-8104b5b0957f"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+2024-02-02T00:45:46.519Z Recieved GET request  at /users
+2024-02-02T00:45:46.709Z Responded to GET request  at /users with status 200
+🟢 2024-02-02T00:46:49.019Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:46:49.083Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+2024-02-02T00:46:51.270Z Recieved GET request  at /users
+2024-02-02T00:46:51.469Z Responded to GET request  at /users with status 200
+⚠️  2024-02-02T00:46:56.620Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "c080dfa8-8432-4a9f-bf72-00cb1f3925e9"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "c080dfa8-8432-4a9f-bf72-00cb1f3925e9"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+🟢 2024-02-02T00:48:02.817Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:48:02.924Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:48:43.667Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:48:43.675Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:48:57.962Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:49:11.448Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:49:11.451Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:49:36.415Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:49:36.481Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:50:52.772Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+⚠️  2024-02-02T00:50:54.510Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "f777482c-77d7-48b8-b573-8d559302e56c"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "f777482c-77d7-48b8-b573-8d559302e56c"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+🟢 2024-02-02T00:51:11.620Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:11.688Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:17.642Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:17.645Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:23.370Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:23.382Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:45.653Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:45.656Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:54.448Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:51:54.451Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+⚠️  2024-02-02T00:51:57.311Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "c47e57e5-f5a4-40ee-85a7-e71949f580d3"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "c47e57e5-f5a4-40ee-85a7-e71949f580d3"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+🟢 2024-02-02T00:53:50.454Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:53:50.532Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:53:56.687Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:53:56.714Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:54:06.268Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:54:06.270Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+⚠️  2024-02-02T00:54:07.700Z ERROR: Error fulfilling GET at /users: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "1b5d463e-a545-43ee-98b8-228edd864380"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+Stacktrace: 
+Error: {
+  "type": "headers",
+  "at": "authorization",
+  "message": "Required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {
+    "user-agent": "PostmanRuntime/7.36.1",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "host": "localhost:1234",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "postman-token": "1b5d463e-a545-43ee-98b8-228edd864380"
+  },
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Required property"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string"
+    }
+  ]
+}
+    at new S (/Users/novamondal/Documents/GitHub/FRC/nautilus/apps/api/node_modules/elysia/dist/bun/index.js:7:19179)
+    at <anonymous> (:60:50)
+    at processTicksAndRejections (:12:39)  ⚠️
+🟢 2024-02-02T00:54:18.292Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T00:54:30.343Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:54:30.346Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T00:54:40.114Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T00:54:40.191Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:10:56.303Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:10:56.336Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:11:02.585Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:11:02.623Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:11:49.588Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:12:07.831Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:12:07.834Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:13:13.546Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:13:13.550Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:13:45.525Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:13:45.528Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:14:10.910Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:14:23.805Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:14:34.163Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:14:34.204Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:14:52.767Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:15:07.918Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:15:07.922Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:15:40.327Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:15:40.402Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:34:00.604Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:34:08.976Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:34:25.816Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:34:25.858Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:36:36.251Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:36:36.310Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:36:41.270Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:36:41.274Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:37:14.521Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:38:01.633Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:38:01.671Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:38:17.673Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:38:17.676Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:41:23.369Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:41:23.373Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:41:37.827Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:41:37.830Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:42:03.748Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:42:03.752Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:42:17.930Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:42:18.009Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:46:09.290Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:46:09.367Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:46:42.164Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:47:01.967Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:47:01.971Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:48:05.639Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:48:05.714Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:48:18.169Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:48:18.173Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:48:30.456Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:48:30.943Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:48:47.729Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:49:03.712Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:49:38.290Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:49:38.294Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:50:56.999Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:50:57.052Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:51:21.641Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:51:21.723Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:51:26.834Z Connected to scoutingDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:51:26.841Z Connected to usersDB: ac-4siv8pi-shard-00-01.hh3ieam.mongodb.net
+🟢 2024-02-02T01:51:41.506Z Connected to usersDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:51:41.509Z Connected to scoutingDB: ac-4siv8pi-shard-00-02.hh3ieam.mongodb.net
+🟢 2024-02-02T01:51:44.618Z Connected to scoutingDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net
+🟢 2024-02-02T01:51:44.622Z Connected to usersDB: ac-4siv8pi-shard-00-00.hh3ieam.mongodb.net

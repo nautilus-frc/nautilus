@@ -1,54 +1,49 @@
-import mongoose, {
-	Document,
-	HydratedDocumentFromSchema,
-	InferSchemaType,
-	Model,
-} from "mongoose";
-import { userRoleSchema } from "./UserRoleModel";
+import mongoose, { HydratedDocumentFromSchema } from "mongoose";
 import { usersDB } from "../../config/db";
+import { Permissions, userRoleSchema } from "./UserRoleModel";
 
-// export interface User  {
-// 	firstname: string;
-// 	lastname: string;
-// 	username: string;
-// 	email: string;
-// 	password: string;
-// 	phone?: string;
-// 	subteam?: string; //"software" | "build" | "executive" | "marketing" | "electrical" | "design"
-// 	grade?: number;
-// 	roles: {
-// 		role: string;
-// 		permissions: Permissions;
-// 	}[];
-// 	accountType: number;
-// 	accountUpdateVersion: number;
-// 	forgotPassword?: {
-// 		code: string;
-// 		expiresAt: number;
-// 	};
-// 	rateLimit?: {
-// 		count: number;
-// 		expiresAt: number;
-// 	};
-// 	attendance: {
-// 		[key: string]: {
-// 			totalHoursLogged: number;
-// 			logs: {
-// 				meetingId: string;
-// 				verifiedBy: string;
-// 			}[];
-// 		};
-// 	};
-// };
+export interface IUser {
+	firstname: string;
+	lastname: string;
+	username: string;
+	email: string;
+	password: string;
+	phone: string;
+	subteam?: string; //"software" | "build" | "executive" | "marketing" | "electrical" | "design"
+	grade?: number;
+	roles: {
+		name: string;
+		permissions: Permissions;
+	}[];
+	accountType: number;
+	accountUpdateVersion: number;
+	forgotPassword?: {
+		code: string;
+		expiresAt: number;
+	};
+	rateLimit?: {
+		count: number;
+		expiresAt: number;
+	};
+	attendance: {
+		[key: string]: {
+			totalHoursLogged: number;
+			logs: {
+				meetingId: string;
+				verifiedBy: string;
+			}[];
+		};
+	};
+}
 
-const userSchema = new mongoose.Schema(
+const userSchema = new mongoose.Schema<IUser>(
 	{
 		firstname: { type: String, required: true, trim: true },
 		lastname: { type: String, required: true, trim: true },
 		username: { type: String, required: true, unique: true, trim: true },
 		email: { type: String, required: true, unique: true, trim: true },
 		password: { type: String, required: true },
-		phone: { type: String, required: false, unique: true },
+		phone: { type: String, required: true, unique: true },
 		subteam: { type: String, required: false }, //"software" | "build" | "executive" | "marketing" | "electrical" | "design"
 		grade: { type: Number, required: false },
 		roles: { type: [userRoleSchema], required: true },
@@ -78,37 +73,21 @@ const userSchema = new mongoose.Schema(
 		// },
 
 		attendance: {
-			type: Map,
-			of: {
-				totalHoursLogged: { type: Number, required: true, default: 0 },
-				logs: {
-					type: [
-						{
-							meetingId: { type: String, required: true },
-							verifiedBy: { type: String, required: true }, //userId of user who wrote the NFC tag
-						},
-					],
-					required: true,
-					default: [],
-				},
-			},
+			type: Object,
 			required: true,
-			default: {
-				"2023spring": {
-					totalHoursLogged: 0,
-					logs: [],
-				},
-			},
-		}, //map of string to attendance object
+			default: {},
+		},
+		//map of string to attendance object
 	},
 	{
 		timestamps: true,
+		minimize: false,
 	}
 );
 
 export type User = HydratedDocumentFromSchema<typeof userSchema>;
 
-export const User = usersDB.model("users", userSchema);
+export const Users = usersDB.model("users", userSchema);
 
 /**
  * {

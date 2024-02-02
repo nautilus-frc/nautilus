@@ -1,34 +1,24 @@
-import mongoose from "mongoose";
+import mongoose, { InferSchemaType } from "mongoose";
 
-export interface Permissions {
-			generalScouting: boolean;
-			pitScouting: boolean;
-			viewScoutingData: boolean;
-			blogPosts: boolean;
-			makeMeetings: boolean;
-			viewMeetings: boolean;
-			deleteMeetings: boolean;
-			makeAnnouncements: boolean;
-		};
+export const userPermissionsSchema = new mongoose.Schema({
+	generalScouting: { type: Boolean, required: true, default: false },
+	pitScouting: { type: Boolean, required: true, default: false },
+	viewScoutingData: { type: Boolean, required: true, default: false },
+	blogPosts: { type: Boolean, required: true, default: false },
+	makeMeetings: { type: Boolean, required: true, default: false },
+	viewMeetings: { type: Boolean, required: true, default: false },
+	deleteMeetings: { type: Boolean, required: true, default: false },
+	makeAnnouncements: { type: Boolean, required: true, default: false },
+});
 
-export const userPermissionsSchema = new mongoose.Schema<Permissions>({
-            generalScouting: Boolean,
-            pitScouting: Boolean,
-            viewScoutingData: Boolean,
-            blogPosts: Boolean,
-            makeMeetings: Boolean,
-            viewMeetings: Boolean, 
-            deleteMeetings: Boolean,
-            makeAnnouncements: Boolean,
-        });
+export type Permissions = InferSchemaType<typeof userPermissionsSchema>;
 
 export const userRoleSchema = new mongoose.Schema(
-    {
-        role: { type: String, required: true, trim: true },
-        permissions: userPermissionsSchema
-    },
-    {
-        timestamps: true,
-    }
+	{
+		name: { type: String, required: true, trim: true },
+		permissions: { type: userPermissionsSchema, required: true },
+	},
+	{
+		timestamps: true,
+	}
 );
-

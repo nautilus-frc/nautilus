@@ -4,6 +4,19 @@ export default function json(
 	return JSON.stringify(obj);
 }
 
-export function message(message: string): string {
-	return json({ message });
+export function message(message: string): MessageT {
+	return { message };
+}
+
+export type MessageT = {
+	message: string;
+};
+
+export function isJson(str: unknown) {
+	try {
+		JSON.parse(str as string);
+	} catch (e) {
+		return false;
+	}
+	return true;
 }
