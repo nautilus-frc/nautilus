@@ -85,7 +85,7 @@ const _ = new Elysia()
 		const ip = request.headers.get("X-Real-IP"); //filled in by nginx
 		return { ip };
 	})
-	.onBeforeHandle(({ request, path, params, body, query, ip }) => {
+	.onBeforeHandle(async ({ request, path, params, body, query, ip }) => {
 		//logging
 		let str = `Recieved ${request.method} request ${ip ? "from " + ip + " " : ""}at ${path}`;
 		if (params)
@@ -93,7 +93,7 @@ const _ = new Elysia()
 		if (body) str += ` with body ${JSON.stringify(body)}`;
 		if (Object.keys(query).length > 0)
 			str += ` with query ${json({ ...query })}`;
-		log(str);
+		await log(str);
 	})
 	.onAfterHandle(async ({ response, path, set, request, ip }) => {
 		//content type
@@ -111,21 +111,21 @@ const _ = new Elysia()
 		const status = set?.status;
 		let str = `Responded to ${request.method} request ${ip ? "from " + ip + " " : ""}at ${path} with status ${status}${message ? " and message: " + message : ""}`;
 		if (Number(status) >= 200 && Number(status) < 300) {
-			logSuccess(str);
+			await logSuccess(str);
 		} else if (Number(status) < 400) {
-			log(str);
+			await log(str);
 		} else if (Number(status) < 500) {
-			logWarning(str);
+			await logWarning(str);
 		} else {
-			logError(str);
+			await logError(str);
 		}
 	})
-	.onError(({ error, path, request, set, code }) => {
+	.onError(async ({ error, path, request, set, code }) => {
 		set.headers["Content-Type"] = "application/json";
 		let mes = `${error.name} fulfilling ${request.method} at ${path}: ${error.message}`;
 		if (error.cause) mes += `Caused by: ${error.cause}`;
 		if (error.stack) mes += `\nStacktrace: \n${error.stack}`;
-		logError(mes);
+		await logError(mes);
 
 		switch (code) {
 			case "VALIDATION":
