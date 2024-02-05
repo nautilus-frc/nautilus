@@ -1,5 +1,5 @@
 import { Elysia, t } from "elysia";
-import { ACCOUNT_LEVEL, protect } from "../../util/protect";
+import { ACCOUNT_LEVEL, protect } from "../../util/users/protect";
 import bearer from "@elysiajs/bearer";
 import createRole from "./handlers/createRole";
 import { Permissions } from "../../models/usersDB/users/UserRoleModel";

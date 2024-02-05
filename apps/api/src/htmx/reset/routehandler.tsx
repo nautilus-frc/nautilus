@@ -1,5 +1,5 @@
 import { Context } from "elysia";
-import { resetPassword } from "../../util/resetPassword";
+import { resetPassword } from "../../util/users/resetPassword";
 import ErrorPage from "./components/error";
 import ResetPasswordSuccessPage from "./components/success";
 

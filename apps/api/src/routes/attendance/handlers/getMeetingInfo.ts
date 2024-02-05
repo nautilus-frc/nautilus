@@ -1,6 +1,6 @@
 import { Meetings } from "../../../models/usersDB/meetings/MeetingModel";
 import { meetingInfo } from "../../../util/meetings";
-import { logError } from "../../../util/logging";
+import { logError } from "../../../util/general/logging";
 import mongoose from "mongoose";
 import { User, Users } from "../../../models/usersDB/users/UserModel";
 import { Context } from "elysia";

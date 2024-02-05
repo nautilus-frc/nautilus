@@ -4,8 +4,8 @@ import { Meetings } from "../../../../models/usersDB/meetings/MeetingModel";
 import {
 	userResponseToken,
 	validateUserAttendance,
-} from "../../../../util/userUtil";
-import { logError } from "../../../../util/logging";
+} from "../../../../util/users/userUtil";
+import { logError } from "../../../../util/general/logging";
 
 export default async function attendMeeting(
 	me: User,

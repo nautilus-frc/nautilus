@@ -1,11 +1,11 @@
 import { Context } from "elysia";
 import { Users } from "../../../models/usersDB/users/UserModel";
-import json, { message } from "../../../util/json";
+import json, { message } from "../../../util/general/json";
 import {
 	limitedUserResponse,
 	userResponseNoToken,
-} from "../../../util/userUtil";
-import { logError } from "../../../util/logging";
+} from "../../../util/users/userUtil";
+import { logError } from "../../../util/general/logging";
 
 export async function getUsersAdmin({ set, query }: Context) {
 	try {

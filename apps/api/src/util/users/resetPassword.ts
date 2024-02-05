@@ -1,7 +1,7 @@
-import { Users } from "../models/usersDB/users/UserModel";
+import { Users } from "../../models/usersDB/users/UserModel";
 import bcrypt from "bcrypt";
-import { logError } from "./logging";
-import { MessageT } from "./json";
+import { logError } from "../general/logging";
+import { MessageT } from "../general/json";
 
 interface Result {
 	success: boolean;

@@ -1,11 +1,11 @@
 import { Context } from "elysia";
-import { log, logError } from "../../../../util/logging";
+import { log, logError } from "../../../../util/general/logging";
 import {
 	findManyUsers,
 	findUser,
 	updateManyUsers,
 	userResponseNoToken,
-} from "../../../../util/userUtil";
+} from "../../../../util/users/userUtil";
 import { User, Users } from "../../../../models/usersDB/users/UserModel";
 
 export default async function revokeRole({

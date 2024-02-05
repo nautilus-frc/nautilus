@@ -5,9 +5,9 @@ import {
 } from "../../../models/usersDB/users/UserRoleModel";
 import { Users } from "../../../models/usersDB/users/UserModel";
 import mongoose from "mongoose";
-import { findUser } from "../../../util/userUtil";
-import { logError } from "../../../util/logging";
-import { formatRoleResponse } from "../../../util/roles";
+import { findUser } from "../../../util/users/userUtil";
+import { logError } from "../../../util/general/logging";
+import { formatRoleResponse } from "../../../util/users/roles";
 
 export default async function createRole({
 	set,

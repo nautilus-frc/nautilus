@@ -4,7 +4,7 @@ import {
 	limitedUserResponse,
 	userResponseNoToken,
 	userResponseToken,
-} from "../../../util/userUtil";
+} from "../../../util/users/userUtil";
 
 export const TUserPermissions = t.Object({
 	generalScouting: t.Boolean(),

@@ -1,10 +1,10 @@
 import jwt from "jsonwebtoken";
-import { User, Users } from "../models/usersDB/users/UserModel";
+import { User, Users } from "../../models/usersDB/users/UserModel";
 import { Context } from "elysia";
-import { MessageT, message } from "./json";
-import { logError } from "./logging";
-import { Permissions } from "../models/usersDB/users/UserRoleModel";
-import { formatUserRoles } from "./userUtil";
+import { MessageT, message } from "../general/json";
+import { logError } from "../general/logging";
+import { Permissions } from "../../models/usersDB/users/UserRoleModel";
+import { formatUserRoles } from "../users/userUtil";
 
 const JWT_SECRET = process.env.JWT_SECRET || "";
 

@@ -1,6 +1,6 @@
 import { Context } from "elysia";
 import { Meetings } from "../../../../models/usersDB/meetings/MeetingModel";
-import { logError } from "../../../../util/logging";
+import { logError } from "../../../../util/general/logging";
 
 export default async function deleteMeeting({
 	params: { meetingId },

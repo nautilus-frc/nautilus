@@ -4,9 +4,9 @@ import {
 	MeetingType,
 	Meetings,
 } from "../../../models/usersDB/meetings/MeetingModel";
-import { logError } from "../../../util/logging";
+import { logError } from "../../../util/general/logging";
 import { meetingResponse } from "../../../util/meetings";
-import { formatUserRoles } from "../../../util/userUtil";
+import { formatUserRoles } from "../../../util/users/userUtil";
 
 export async function createMeeting(
 	user: User,

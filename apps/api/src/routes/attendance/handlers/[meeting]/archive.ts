@@ -1,5 +1,5 @@
 import { Context } from "elysia";
-import { logError } from "../../../../util/logging";
+import { logError } from "../../../../util/general/logging";
 import { Meetings } from "../../../../models/usersDB/meetings/MeetingModel";
 
 export default async function archiveMeeting({

@@ -1,7 +1,7 @@
 import { Context } from "elysia";
-import { logError } from "../../../util/logging";
+import { logError } from "../../../util/general/logging";
 import { UserRoles } from "../../../models/usersDB/users/UserRoleModel";
-import { formatRoleResponse } from "../../../util/roles";
+import { formatRoleResponse } from "../../../util/users/roles";
 
 export default async function getRoles({ set }: Context) {
 	try {

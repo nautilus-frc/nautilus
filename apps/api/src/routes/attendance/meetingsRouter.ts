@@ -1,6 +1,6 @@
 import bearer from "@elysiajs/bearer";
 import { Elysia, t } from "elysia";
-import { ACCOUNT_LEVEL, protect, protectAndBind } from "../../util/protect";
+import { ACCOUNT_LEVEL, protect, protectAndBind } from "../../util/users/protect";
 import { createMeeting } from "./handlers/createMeeting";
 import {
 	TMeeting,

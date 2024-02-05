@@ -1,11 +1,11 @@
 import { Context } from "elysia";
 import { IUser, Users } from "../../../../models/usersDB/users/UserModel";
-import { message } from "../../../../util/json";
-import { logError } from "../../../../util/logging";
+import { message } from "../../../../util/general/json";
+import { logError } from "../../../../util/general/logging";
 import {
 	userResponseNoToken,
 	userResponseToken,
-} from "../../../../util/userUtil";
+} from "../../../../util/users/userUtil";
 import mongoose from "mongoose";
 
 export type TUserUpdate = Partial<

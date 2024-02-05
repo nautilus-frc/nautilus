@@ -1,7 +1,7 @@
 import { Context } from "elysia";
 import { User, Users } from "../../../../models/usersDB/users/UserModel";
-import json, { MessageT } from "../../../../util/json";
-import { logSuccess, logError } from "../../../../util/logging";
+import json, { MessageT } from "../../../../util/general/json";
+import { logSuccess, logError } from "../../../../util/general/logging";
 
 export const deleteMe = async (
 	user: User,

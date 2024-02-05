@@ -1,11 +1,11 @@
 import mongoose, { UpdateQuery } from "mongoose";
-import { IUser, User, Users } from "../models/usersDB/users/UserModel";
-import { Permissions } from "../models/usersDB/users/UserRoleModel";
-import json from "./json";
+import { IUser, User, Users } from "../../models/usersDB/users/UserModel";
+import { Permissions } from "../../models/usersDB/users/UserRoleModel";
+import json from "../general/json";
 import { ACCOUNT_LEVEL, generateToken } from "./protect";
-import { Meetings } from "../models/usersDB/meetings/MeetingModel";
-import { logError } from "./logging";
-import { usersDB } from "../config/db";
+import { Meetings } from "../../models/usersDB/meetings/MeetingModel";
+import { logError } from "../general/logging";
+import { usersDB } from "../../config/db";
 
 type ReturnedUserRoles = {
 	roles: string[];

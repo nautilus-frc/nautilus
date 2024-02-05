@@ -1,5 +1,5 @@
 import { Context } from "elysia";
-import { log, logError } from "../../../../util/logging";
+import { log, logError } from "../../../../util/general/logging";
 import { Meetings } from "../../../../models/usersDB/meetings/MeetingModel";
 import { meetingResponse } from "../../../../util/meetings";
 

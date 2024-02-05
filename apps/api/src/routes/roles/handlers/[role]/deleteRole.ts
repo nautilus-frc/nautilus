@@ -1,6 +1,6 @@
 import { Context } from "elysia";
 import { UserRoles } from "../../../../models/usersDB/users/UserRoleModel";
-import { logError } from "../../../../util/logging";
+import { logError } from "../../../../util/general/logging";
 import { Users } from "../../../../models/usersDB/users/UserModel";
 import mongoose from "mongoose";
 

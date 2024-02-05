@@ -4,8 +4,8 @@ import {
 	UserRoles,
 } from "../../../../models/usersDB/users/UserRoleModel";
 import { Users } from "../../../../models/usersDB/users/UserModel";
-import { logError } from "../../../../util/logging";
-import { formatRoleResponse } from "../../../../util/roles";
+import { logError } from "../../../../util/general/logging";
+import { formatRoleResponse } from "../../../../util/users/roles";
 
 export default async function updateRole({
 	params: { roleId },

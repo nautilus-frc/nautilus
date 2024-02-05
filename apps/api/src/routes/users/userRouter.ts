@@ -8,8 +8,12 @@ import {
 	TUserPermissions,
 	TUserRaw,
 } from "../../models/usersDB/users/ElysiaSchemas";
-import { ACCOUNT_LEVEL, protect, protectAndBind } from "../../util/protect";
-import { resetPassword } from "../../util/resetPassword";
+import {
+	ACCOUNT_LEVEL,
+	protect,
+	protectAndBind,
+} from "../../util/users/protect";
+import { resetPassword } from "../../util/users/resetPassword";
 import { deleteUser } from "./handlers/[user]/deleteUser";
 import { getUserAdmin, getUserDefault } from "./handlers/[user]/getUser";
 import updateUser, { TUserUpdate } from "./handlers/[user]/updateUser";

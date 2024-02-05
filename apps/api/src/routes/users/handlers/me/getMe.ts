@@ -1,8 +1,8 @@
 import { Context } from "elysia";
 import { User } from "../../../../models/usersDB/users/UserModel";
-import json, { message } from "../../../../util/json";
-import { logError } from "../../../../util/logging";
-import { userResponseToken } from "../../../../util/userUtil";
+import json, { message } from "../../../../util/general/json";
+import { logError } from "../../../../util/general/logging";
+import { userResponseToken } from "../../../../util/users/userUtil";
 
 export async function getMe(user: User, { set }: Context) {
 	try {

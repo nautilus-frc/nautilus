@@ -1,11 +1,11 @@
 import { Context } from "elysia";
-import { logError } from "../../../../util/logging";
+import { logError } from "../../../../util/general/logging";
 import {
 	findManyUsers,
 	findUser,
 	updateManyUsers,
 	userResponseNoToken,
-} from "../../../../util/userUtil";
+} from "../../../../util/users/userUtil";
 import { User, Users } from "../../../../models/usersDB/users/UserModel";
 import { UserRoles } from "../../../../models/usersDB/users/UserRoleModel";
 import { it } from "bun:test";

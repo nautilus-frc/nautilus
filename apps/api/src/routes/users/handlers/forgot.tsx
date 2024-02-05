@@ -1,10 +1,10 @@
 import Bottleneck from "bottleneck";
 import { Context } from "elysia";
 import { Resend } from "resend";
-import { log, logError } from "../../../util/logging";
-import { message } from "../../../util/json";
+import { log, logError } from "../../../util/general/logging";
+import { message } from "../../../util/general/json";
 import { User, Users } from "../../../models/usersDB/users/UserModel";
-import { randStr } from "../../../util/rand";
+import { randStr } from "../../../util/general/rand";
 import bcrypt from "bcrypt";
 import { Render } from "../../../components/render";
 import { PasswordResetEmail } from "../../../components/resetemail";

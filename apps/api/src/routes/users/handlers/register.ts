@@ -1,9 +1,9 @@
 import { Context } from "elysia";
 import { Users } from "../../../models/usersDB/users/UserModel";
-import json, { MessageT, message } from "../../../util/json";
-import { logError } from "../../../util/logging";
+import json, { MessageT, message } from "../../../util/general/json";
+import { logError } from "../../../util/general/logging";
 import bcrypt from "bcrypt";
-import { UserResponseT, userResponseToken } from "../../../util/userUtil";
+import { UserResponseT, userResponseToken } from "../../../util/users/userUtil";
 
 interface RegisterParams {
 	body: {

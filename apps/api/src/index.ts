@@ -4,8 +4,8 @@ import { swagger } from "@elysiajs/swagger";
 import { Elysia } from "elysia";
 import { scoutingDB, usersDB } from "./config/db";
 import { usersRouter } from "./routes/users/userRouter";
-import json, { isJson, message } from "./util/json";
-import { log, logError, logSuccess, logWarning } from "./util/logging";
+import json, { isJson, message } from "./util/general/json";
+import { log, logError, logSuccess, logWarning } from "./util/general/logging";
 import { htmlPreview } from "./components/htmlPreview";
 import "@kitajs/html/register";
 import staticPlugin from "@elysiajs/static";
@@ -14,6 +14,7 @@ import { TServerMessage } from "./models/global/ElysiaModels";
 import bearer from "@elysiajs/bearer";
 import { attendanceRouter } from "./routes/attendance/meetingsRouter";
 import { rolesRouter } from "./routes/roles/roleRouter";
+import { seasonRouter } from "./routes/seasons/seasonRouter";
 
 const PORT = process.env.PORT || 3001;
 
@@ -62,6 +63,11 @@ const _ = new Elysia()
 						name: "Roles",
 						description:
 							"Endpoints related to user roles and permissions",
+					},
+					{
+						name: "Seasons",
+						description:
+							"Endpoints for information related to FRC seasons and competitions",
 					},
 				],
 			},
@@ -153,6 +159,7 @@ const _ = new Elysia()
 	.use(usersRouter)
 	.use(rolesRouter)
 	.use(attendanceRouter)
-	.use(htmlPreview)
+	.use(seasonRouter)
+	.use(htmlPreview) //automatically ignored when node_env is production
 	.use(htmxRouter)
 	.listen(PORT);

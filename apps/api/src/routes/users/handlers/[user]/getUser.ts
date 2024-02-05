@@ -3,8 +3,8 @@ import { Users } from "../../../../models/usersDB/users/UserModel";
 import {
 	limitedUserResponse,
 	userResponseNoToken,
-} from "../../../../util/userUtil";
-import { logError } from "../../../../util/logging";
+} from "../../../../util/users/userUtil";
+import { logError } from "../../../../util/general/logging";
 import mongoose from "mongoose";
 
 export async function getUserDefault({

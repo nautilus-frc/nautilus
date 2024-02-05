@@ -1,9 +1,9 @@
 import { Context } from "elysia";
 import { User } from "../../../models/usersDB/users/UserModel";
-import { formatUserRoles } from "../../../util/userUtil";
+import { formatUserRoles } from "../../../util/users/userUtil";
 import { Meetings } from "../../../models/usersDB/meetings/MeetingModel";
 import { meetingResponse } from "../../../util/meetings";
-import { log, logError } from "../../../util/logging";
+import { log, logError } from "../../../util/general/logging";
 
 export async function getAllMeetings(user: User, { query, set }: Context) {
 	const { permissions } = formatUserRoles(user.roles, user.accountType);
