@@ -1,8 +1,12 @@
 import { Context } from "elysia";
-import { IUser, User, Users } from "../../../../models/usersDB/UserModel";
-import json, { message } from "../../../../util/json";
+import { IUser, Users } from "../../../../models/usersDB/users/UserModel";
+import { message } from "../../../../util/json";
 import { logError } from "../../../../util/logging";
-import { userResponseToken } from "../../../../util/userUtil";
+import {
+	userResponseNoToken,
+	userResponseToken,
+} from "../../../../util/userUtil";
+import mongoose from "mongoose";
 
 export type TUserUpdate = Partial<
 	Omit<IUser, "password" | "forgotPassword" | "rateLimit" | "attendance">
@@ -11,10 +15,21 @@ export type TUserUpdate = Partial<
 export default async function updateUser({
 	body,
 	set,
-	params: { userId },
-}: Context<{ body: TUserUpdate; params: Record<"userId", string> }>) {
+	params: { user: userId },
+}: Context<{ body: TUserUpdate; params: Record<"user", string> }>) {
 	try {
-		const updatedUser = await Users.findByIdAndUpdate(userId, body, {
+		const user = mongoose.Types.ObjectId.isValid(userId)
+			? await Users.findById(userId)
+			: await Users.findOne({
+					$or: [{ username: userId }, { email: userId }],
+				});
+
+		if (!user) {
+			set.status = 404;
+			return message("User not found");
+		}
+
+		const updatedUser = await Users.findByIdAndUpdate(user._id, body, {
 			new: true,
 		});
 		if (!updatedUser) {
@@ -22,7 +37,7 @@ export default async function updateUser({
 			return message("User not found");
 		}
 		set.status = 201;
-		return userResponseToken(updatedUser);
+		return await userResponseNoToken(updatedUser);
 	} catch (e) {
 		logError("Error updating account for user: " + userId + "\n" + e);
 		set.status = 500;

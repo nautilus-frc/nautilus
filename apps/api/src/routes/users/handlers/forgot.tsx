@@ -3,7 +3,7 @@ import { Context } from "elysia";
 import { Resend } from "resend";
 import { log, logError } from "../../../util/logging";
 import { message } from "../../../util/json";
-import { User, Users } from "../../../models/usersDB/UserModel";
+import { User, Users } from "../../../models/usersDB/users/UserModel";
 import { randStr } from "../../../util/rand";
 import bcrypt from "bcrypt";
 import { Render } from "../../../components/render";

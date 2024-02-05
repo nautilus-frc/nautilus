@@ -1,15 +1,18 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-const MONGO_URI = process.env.NODE_ENV === "production" ? process.env.MONGO_URI_PROD : process.env.MONGO_URI_DEV;
+const MONGO_URI =
+	process.env.NODE_ENV === "production"
+		? process.env.MONGO_URI_PROD
+		: process.env.MONGO_URI_DEV;
 
-const connectDB = (dbUrl: string) => { 
-    try {
-        return mongoose.createConnection(dbUrl)
-    } catch (error) {
-        console.log(error);
-        process.exit(1);
-    }
-}
+const connectDB = (dbUrl: string) => {
+	try {
+		return mongoose.createConnection(dbUrl);
+	} catch (error) {
+		console.log(error);
+		process.exit(1);
+	}
+};
 
 const connAppend =
 	process.env.NODE_ENV === "production"

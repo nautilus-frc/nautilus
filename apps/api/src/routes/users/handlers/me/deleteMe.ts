@@ -1,5 +1,5 @@
 import { Context } from "elysia";
-import { User, Users } from "../../../../models/usersDB/UserModel";
+import { User, Users } from "../../../../models/usersDB/users/UserModel";
 import json, { MessageT } from "../../../../util/json";
 import { logSuccess, logError } from "../../../../util/logging";
 

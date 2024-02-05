@@ -1,4 +1,4 @@
-import { Users } from "../models/usersDB/UserModel";
+import { Users } from "../models/usersDB/users/UserModel";
 import bcrypt from "bcrypt";
 import { logError } from "./logging";
 import { MessageT } from "./json";

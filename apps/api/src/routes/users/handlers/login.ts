@@ -1,12 +1,8 @@
 import { Context, t } from "elysia";
-import { Users } from "../../../models/usersDB/UserModel";
+import { Users } from "../../../models/usersDB/users/UserModel";
 import json, { MessageT, message } from "../../../util/json";
 import bcrypt from "bcrypt";
-import {
-	UserResponseT,
-	userResponseNoToken,
-	userResponseToken,
-} from "../../../util/userUtil";
+import { UserResponseT, userResponseToken } from "../../../util/userUtil";
 import { logError } from "../../../util/logging";
 
 interface LoginParams {
@@ -34,7 +30,7 @@ export async function login({
 			return message("Incorrect password");
 		}
 		set.status = 200;
-		return userResponseToken(user);
+		return await userResponseToken(user);
 	} catch (e) {
 		set.status = 500;
 		logError("Error logging in user " + username + ": " + e);

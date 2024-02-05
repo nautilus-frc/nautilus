@@ -12,6 +12,8 @@ import staticPlugin from "@elysiajs/static";
 import { htmxRouter } from "./htmx/HtmxRouter";
 import { TServerMessage } from "./models/global/ElysiaModels";
 import bearer from "@elysiajs/bearer";
+import { attendanceRouter } from "./routes/attendance/meetingsRouter";
+import { rolesRouter } from "./routes/roles/roleRouter";
 
 const PORT = process.env.PORT || 3001;
 
@@ -50,6 +52,16 @@ const _ = new Elysia()
 					{
 						name: "Users",
 						description: "User account related endpoints",
+					},
+					{
+						name: "Attendance",
+						description:
+							"Endpoints related to logging and verifying user attendance via the companion app",
+					},
+					{
+						name: "Roles",
+						description:
+							"Endpoints related to user roles and permissions",
 					},
 				],
 			},
@@ -110,7 +122,9 @@ const _ = new Elysia()
 		switch (code) {
 			case "VALIDATION":
 				set.status = 400;
-				return message("Please fill in all fields properly");
+				return message(
+					"Validation failed: Please fill in all fields properly. Check request body and headers"
+				);
 			case "INTERNAL_SERVER_ERROR":
 				set.status = 500;
 				return message("Internal server error");
@@ -129,6 +143,8 @@ const _ = new Elysia()
 		}
 	})
 	.use(usersRouter)
+	.use(rolesRouter)
+	.use(attendanceRouter)
 	.use(htmlPreview)
 	.use(htmxRouter)
 	.listen(PORT);

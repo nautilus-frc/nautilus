@@ -1,6 +1,11 @@
 import mongoose, { HydratedDocumentFromSchema } from "mongoose";
-import { usersDB } from "../../config/db";
-import { Permissions, userRoleSchema } from "./UserRoleModel";
+import { usersDB } from "../../../config/db";
+import {
+	Permissions,
+	userPermissionsSchema,
+	userRoleSchema,
+} from "./UserRoleModel";
+import { ObtainDocumentPathType } from "mongoose/types/inferschematype";
 
 export interface IUser {
 	firstname: string;
@@ -14,6 +19,7 @@ export interface IUser {
 	roles: {
 		name: string;
 		permissions: Permissions;
+		id: string;
 	}[];
 	accountType: number;
 	accountUpdateVersion: number;
@@ -46,7 +52,22 @@ const userSchema = new mongoose.Schema<IUser>(
 		phone: { type: String, required: true, unique: true },
 		subteam: { type: String, required: false }, //"software" | "build" | "executive" | "marketing" | "electrical" | "design"
 		grade: { type: Number, required: false },
-		roles: { type: [userRoleSchema], required: true },
+		roles: {
+			type: [
+				{
+					name: { type: String, required: true, trim: true },
+					permissions: userPermissionsSchema,
+					id: {
+						type: String,
+						required: true,
+						trim: true,
+						unique: true,
+					},
+					_id: false,
+				},
+			],
+			required: true,
+		},
 		accountType: { type: Number, required: true, default: 0 },
 		accountUpdateVersion: { type: Number, required: true, default: 1 },
 		forgotPassword: {

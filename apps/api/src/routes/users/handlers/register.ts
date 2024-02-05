@@ -1,5 +1,5 @@
 import { Context } from "elysia";
-import { Users } from "../../../models/usersDB/UserModel";
+import { Users } from "../../../models/usersDB/users/UserModel";
 import json, { MessageT, message } from "../../../util/json";
 import { logError } from "../../../util/logging";
 import bcrypt from "bcrypt";
@@ -67,7 +67,7 @@ export async function register({
 		}
 
 		set.status = 201;
-		return userResponseToken(user);
+		return await userResponseToken(user);
 	} catch (e) {
 		set.status = 500;
 		logError(`Error registering user: ${e}`);

@@ -3,17 +3,22 @@ import { Elysia, t } from "elysia";
 import { TAuthHeaders, TServerMessage } from "../../models/global/ElysiaModels";
 import {
 	TLimitedUser,
-	TUser,
+	TUserWithToken,
 	TUserNoToken,
 	TUserPermissions,
-} from "../../models/usersDB/ElysiaSchemas";
+	TUserRaw,
+} from "../../models/usersDB/users/ElysiaSchemas";
 import { ACCOUNT_LEVEL, protect, protectAndBind } from "../../util/protect";
 import { resetPassword } from "../../util/resetPassword";
 import { deleteUser } from "./handlers/[user]/deleteUser";
 import { getUserAdmin, getUserDefault } from "./handlers/[user]/getUser";
 import updateUser, { TUserUpdate } from "./handlers/[user]/updateUser";
 import { PASSWORD_RESET_LIMIT, forgot } from "./handlers/forgot";
-import { getUsersAdmin, getUsersDefault } from "./handlers/getUsers";
+import {
+	getUsersAdmin,
+	getUsersDefault,
+	getUsersRaw,
+} from "./handlers/getUsers";
 import { login } from "./handlers/login";
 import { deleteMe } from "./handlers/me/deleteMe";
 import { getMe } from "./handlers/me/getMe";
@@ -32,8 +37,12 @@ export const usersRouter = new Elysia()
 							ctx.bearer,
 							ACCOUNT_LEVEL.ADMIN,
 							getUsersAdmin,
-							getUsersDefault,
-							ACCOUNT_LEVEL.BASE
+							{
+								fallback: getUsersDefault,
+								fallbackLevel: ACCOUNT_LEVEL.BASE,
+							}
+							// getUsersDefault,
+							// ACCOUNT_LEVEL.BASE
 						)
 					)(ctx),
 				{
@@ -56,13 +65,39 @@ export const usersRouter = new Elysia()
 					},
 				}
 			)
+			.get(
+				"/raw",
+				async (ctx) =>
+					(
+						await protect(
+							ctx.bearer,
+							ACCOUNT_LEVEL.SUPERUSER,
+							getUsersRaw
+						)
+					)(ctx),
+				{
+					response: {
+						200: t.Array(TUserRaw),
+						400: TServerMessage,
+						401: TServerMessage,
+						403: TServerMessage,
+						404: TServerMessage,
+						500: TServerMessage,
+					},
+					headers: TAuthHeaders,
+					detail: {
+						description:
+							"Returns a list of users as their raw MongoDB documents. Superuser access needed (account level 4+)",
+					},
+				}
+			)
 			.post("/login", async (ctx) => await login(ctx), {
 				body: t.Object({
 					username: t.String(),
 					password: t.String(),
 				}),
 				response: {
-					200: TUser,
+					200: TUserWithToken,
 					400: TServerMessage,
 					401: TServerMessage,
 					404: TServerMessage,
@@ -81,7 +116,7 @@ export const usersRouter = new Elysia()
 					grade: t.Numeric(),
 				}),
 				response: {
-					200: TUser,
+					200: TUserWithToken,
 					400: TServerMessage,
 					401: TServerMessage,
 					403: TServerMessage,
@@ -142,7 +177,7 @@ export const usersRouter = new Elysia()
 					)(ctx),
 				{
 					response: {
-						200: TUser,
+						200: TUserWithToken,
 						400: TServerMessage,
 						401: TServerMessage,
 						403: TServerMessage,
@@ -175,7 +210,7 @@ export const usersRouter = new Elysia()
 						grade: t.Optional(t.Numeric()),
 					}),
 					response: {
-						201: TUser,
+						201: TUserWithToken,
 						400: TServerMessage,
 						401: TServerMessage,
 						403: TServerMessage,
@@ -214,15 +249,17 @@ export const usersRouter = new Elysia()
 				}
 			)
 			.get(
-				"/:userId",
+				"/:user",
 				async (ctx) =>
 					(
 						await protect(
 							ctx.bearer,
 							ACCOUNT_LEVEL.ADMIN,
 							getUserAdmin,
-							getUserDefault,
-							ACCOUNT_LEVEL.BASE
+							{
+								fallback: getUserDefault,
+								fallbackLevel: ACCOUNT_LEVEL.BASE,
+							}
 						)
 					)(ctx),
 				{
@@ -237,12 +274,12 @@ export const usersRouter = new Elysia()
 					headers: TAuthHeaders,
 					detail: {
 						description:
-							"Look up user by userId. Admin access (account level 3+) required to view full data, base (level 1+) to view limited user data",
+							"Look up user by username, email, or UUID. Admin access (account level 3+) required to view full data, base (level 1+) to view limited user data",
 					},
 				}
 			)
 			.put(
-				"/:userId",
+				"/:user",
 				async (ctx) =>
 					(
 						await protect(
@@ -267,6 +304,7 @@ export const usersRouter = new Elysia()
 								t.Object({
 									name: t.String(),
 									permissions: TUserPermissions,
+									id: t.String(),
 								})
 							)
 						),
@@ -281,12 +319,12 @@ export const usersRouter = new Elysia()
 					headers: TAuthHeaders,
 					detail: {
 						description:
-							"Look up user by userId and update the user's information. Admin access (account level 3+) required",
+							"Look up user by email, username, or UUID and update the user's information. Admin access (account level 3+) required",
 					},
 				}
 			)
 			.delete(
-				"/:userId",
+				"/:user",
 				async (ctx) =>
 					(
 						await protect(
@@ -306,7 +344,7 @@ export const usersRouter = new Elysia()
 					headers: TAuthHeaders,
 					detail: {
 						description:
-							"Look up user by userId and delete the user's account. Admin access (account level 3+) required",
+							"Look up user by email, username, or UUID and delete the user's account. Admin access (account level 3+) required",
 					},
 				}
 			)

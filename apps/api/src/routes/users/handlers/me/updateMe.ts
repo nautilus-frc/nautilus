@@ -1,5 +1,5 @@
 import { Context } from "elysia";
-import { User, Users } from "../../../../models/usersDB/UserModel";
+import { User, Users } from "../../../../models/usersDB/users/UserModel";
 import json, { message } from "../../../../util/json";
 import { logError, logSuccess } from "../../../../util/logging";
 import { userResponseToken } from "../../../../util/userUtil";
@@ -32,7 +32,7 @@ export default async function updateMe(user: User, { body, set }: Args) {
 				JSON.stringify(body, null, 2)
 		);
 		set.status = 201;
-		return userResponseToken(u);
+		return await userResponseToken(u);
 	} catch (e) {
 		logError(
 			"Error updating account for user: " + user.username + "\n" + e
