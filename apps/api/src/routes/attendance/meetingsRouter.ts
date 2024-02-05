@@ -53,6 +53,18 @@ export const attendanceRouter = new Elysia()
 				}
 			)
 			.get(
+				"/meetings",
+				({ set }) => {
+					set.redirect = "/attendance/meetings/info";
+					set.status = 301;
+				},
+				{
+					detail: {
+						description: "Redirects to /attendance/meetings/info",
+					},
+				}
+			)
+			.get(
 				"/meetings/info",
 				async ({ set, query }) => {
 					const { _id, ...rest } = query;

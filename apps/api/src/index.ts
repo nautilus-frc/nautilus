@@ -5,7 +5,7 @@ import { Elysia } from "elysia";
 import { scoutingDB, usersDB } from "./config/db";
 import { usersRouter } from "./routes/users/userRouter";
 import json, { isJson, message } from "./util/json";
-import { log, logError, logSuccess } from "./util/logging";
+import { log, logError, logSuccess, logWarning } from "./util/logging";
 import { htmlPreview } from "./components/htmlPreview";
 import "@kitajs/html/register";
 import staticPlugin from "@elysiajs/static";
@@ -87,7 +87,7 @@ const _ = new Elysia()
 	})
 	.onBeforeHandle(({ request, path, params, body, query, ip }) => {
 		//logging
-		let str = `Recieved ${request.method} request ${ip ? "from " + ip : ""} at ${path}`;
+		let str = `Recieved ${request.method} request ${ip ? "from " + ip + " " : ""}at ${path}`;
 		if (params)
 			str += ` with params ${JSON.stringify(params, undefined, 2)}`;
 		if (body) str += ` with body ${JSON.stringify(body)}`;
@@ -97,17 +97,25 @@ const _ = new Elysia()
 	})
 	.onAfterHandle(async ({ response, path, set, request, ip }) => {
 		//content type
-		const res = (await response) as string;
+		const res = await response;
 		if (isHtml(res)) {
 			set.headers["Content-Type"] = "text/html";
 		} else if (isJson(res)) {
 			set.headers["Content-Type"] = "application/json";
 		}
+		let message;
+		if (typeof res === "object" && res && "message" in res) {
+			message = res.message;
+		}
 		//logging
 		const status = set?.status;
-		let str = `Responded to ${request.method} request ${ip ? "from " + ip : ""} at ${path} with status ${status}`;
-		if (Number(status) < 400) {
+		let str = `Responded to ${request.method} request ${ip ? "from " + ip + " " : ""}at ${path} with status ${status}${message ? " and message: " + message : ""}`;
+		if (Number(status) >= 200 && Number(status) < 300) {
+			logSuccess(str);
+		} else if (Number(status) < 400) {
 			log(str);
+		} else if (Number(status) < 500) {
+			logWarning(str);
 		} else {
 			logError(str);
 		}
