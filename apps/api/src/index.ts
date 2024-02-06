@@ -15,6 +15,7 @@ import bearer from "@elysiajs/bearer";
 import { attendanceRouter } from "./routes/attendance/meetingsRouter";
 import { rolesRouter } from "./routes/roles/roleRouter";
 import { seasonRouter } from "./routes/seasons/seasonRouter";
+import { crescendoRouter } from "./routes/games/crescendo/crescendoRouter";
 
 const PORT = process.env.PORT || 3001;
 
@@ -68,6 +69,15 @@ const _ = new Elysia()
 						name: "Seasons",
 						description:
 							"Endpoints for information related to FRC seasons and competitions",
+					},
+					{
+						name: "Scouting",
+						description: "Endpoints for scouting",
+					},
+					{
+						name: "Crescendo",
+						description:
+							"Endpoints for the 2024 FRC game, Crescendo",
 					},
 				],
 			},
@@ -162,4 +172,5 @@ const _ = new Elysia()
 	.use(seasonRouter)
 	.use(htmlPreview) //automatically ignored when node_env is production
 	.use(htmxRouter)
+	.use(crescendoRouter)
 	.listen(PORT);
