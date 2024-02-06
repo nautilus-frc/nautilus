@@ -1,5 +1,4 @@
 import { Users } from "../../models/usersDB/users/UserModel";
-import bcrypt from "bcrypt";
 import { logError } from "../general/logging";
 import { MessageT } from "../general/json";
 
@@ -39,7 +38,11 @@ export async function resetPassword(
 			};
 		}
 
-		const isMatch = await bcrypt.compare(
+		// const isMatch = await bcrypt.compare(
+		// 	otp.toUpperCase(),
+		// 	user.forgotPassword.code
+		// );
+		const isMatch = await Bun.password.verify(
 			otp.toUpperCase(),
 			user.forgotPassword.code
 		);
@@ -50,7 +53,11 @@ export async function resetPassword(
 				code: 400,
 			};
 
-		const hash = await bcrypt.hash(newPassword, await bcrypt.genSalt(10));
+		// const hash = await bcrypt.hash(newPassword, await bcrypt.genSalt(10));
+		const hash = await Bun.password.hash(newPassword, {
+			algorithm: "bcrypt",
+			cost: 10,
+		});
 		const updated = await Users.findByIdAndUpdate(
 			user._id,
 			{

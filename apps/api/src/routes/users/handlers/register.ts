@@ -2,7 +2,6 @@ import { Context } from "elysia";
 import { Users } from "../../../models/usersDB/users/UserModel";
 import json, { MessageT, message } from "../../../util/general/json";
 import { logError } from "../../../util/general/logging";
-import bcrypt from "bcrypt";
 import { UserResponseT, userResponseToken } from "../../../util/users/userUtil";
 
 interface RegisterParams {
@@ -46,8 +45,12 @@ export async function register({
 			return message("Phone number already in use");
 		}
 
-		const salt = await bcrypt.genSalt(10);
-		const hash = await bcrypt.hash(password, salt);
+		// const salt = await bcrypt.genSalt(10);
+		// const hash = await bcrypt.hash(password, salt);
+		const hash = await Bun.password.hash(password, {
+			algorithm: "bcrypt",
+			cost: 10,
+		});
 
 		const user = await Users.create({
 			firstname,

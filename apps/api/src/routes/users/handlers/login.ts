@@ -1,7 +1,6 @@
 import { Context, t } from "elysia";
 import { Users } from "../../../models/usersDB/users/UserModel";
 import json, { MessageT, message } from "../../../util/general/json";
-import bcrypt from "bcrypt";
 import { UserResponseT, userResponseToken } from "../../../util/users/userUtil";
 import { logError } from "../../../util/general/logging";
 
@@ -24,7 +23,8 @@ export async function login({
 			set.status = 404;
 			return message("User not found");
 		}
-		const matchUser = await bcrypt.compare(password, user.password);
+		// const matchUser = await bcrypt.compare(password, user.password);
+		const matchUser = await Bun.password.verify(password, user.password);
 		if (!matchUser) {
 			set.status = 401;
 			return message("Incorrect password");

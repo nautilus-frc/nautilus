@@ -7,7 +7,7 @@ const MONGO_URI =
 
 const connectDB = (dbUrl: string) => {
 	try {
-		return mongoose.createConnection(dbUrl);
+		return mongoose.createConnection(dbUrl, { directConnection: false });
 	} catch (error) {
 		console.log(error);
 		process.exit(1);

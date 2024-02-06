@@ -5,7 +5,6 @@ import { log, logError } from "../../../util/general/logging";
 import { message } from "../../../util/general/json";
 import { User, Users } from "../../../models/usersDB/users/UserModel";
 import { randStr } from "../../../util/general/rand";
-import bcrypt from "bcrypt";
 import { Render } from "../../../components/render";
 import { PasswordResetEmail } from "../../../components/resetemail";
 
@@ -77,7 +76,11 @@ export async function handleForgot(
 
 		const exp = Date.now() + 3 * 24 * 3600 * 1000; //3 days
 		const otp = randStr(8).toUpperCase();
-		const hashed = await bcrypt.hash(otp, await bcrypt.genSalt(10));
+		// const hashed = await bcrypt.hash(otp, await bcrypt.genSalt(10));
+		const hashed = await Bun.password.hash(otp, {
+			algorithm: "bcrypt",
+			cost: 10,
+		});
 
 		const updatedUser = await Users.findByIdAndUpdate(
 			user._id,
