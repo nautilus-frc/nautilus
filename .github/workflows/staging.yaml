@@ -16,7 +16,7 @@ jobs:
               with:
                   filters: |
                       api: 
-                          - 'api/**'
+                          - 'apps/api/**'
     api:
         runs-on: ubuntu-latest
         needs: paths-filter
