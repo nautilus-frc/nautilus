@@ -52,6 +52,6 @@ jobs:
                   context: ./apps/api
                   build-contexts: |
                       oven/bun=docker-image://oven/bun:latest
-                  platforms: linux/amd64,linux/arm64,mac/amd64,mac/arm64
+                  platforms: linux/amd64,linux/arm64
                   push: true
                   tags: ghcr.io/nautilus/api:staging
