@@ -16,7 +16,7 @@ jobs:
             - uses: dorny/paths-filter@v3
               id: filter
               with:
-                  base: ${{ github.ref }}
+                  base: ${{ github.ref.staging }}
                   filters: |
                       api: 
                           - 'apps/api/**'
@@ -29,7 +29,6 @@ jobs:
             contents: read
             packages: write
             deployments: write
-
         steps:
             - name: Checkout
               uses: actions/checkout@v3
