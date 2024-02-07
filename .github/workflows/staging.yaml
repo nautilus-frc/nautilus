@@ -54,4 +54,4 @@ jobs:
                       oven/bun=docker-image://oven/bun:latest
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ghcr.io/nautilus/api:staging
+                  tags: ghcr.io/nautilus-frc/api:staging
