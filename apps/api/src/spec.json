@@ -1,0 +1,1082 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Elysia Documentation",
+    "description": "Development documentation",
+    "version": "0.0.0"
+  },
+  "paths": {
+    "/users/": {
+      "get": {
+        "operationId": "getUsers",
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/users/login": {
+      "post": {
+        "parameters": [],
+        "operationId": "postUsersLogin",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/users/register": {
+      "post": {
+        "parameters": [],
+        "operationId": "postUsersRegister",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "firstname",
+                  "lastname",
+                  "username",
+                  "email",
+                  "password",
+                  "phone",
+                  "subteam",
+                  "grade"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "firstname",
+                  "lastname",
+                  "username",
+                  "email",
+                  "password",
+                  "phone",
+                  "subteam",
+                  "grade"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "firstname",
+                  "lastname",
+                  "username",
+                  "email",
+                  "password",
+                  "phone",
+                  "subteam",
+                  "grade"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/users/forgot-password": {
+      "post": {
+        "parameters": [],
+        "operationId": "postUsersForgot-password",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/users/reset-password": {
+      "post": {
+        "parameters": [],
+        "operationId": "postUsersReset-password",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "newPassword": {
+                    "type": "string"
+                  },
+                  "otp": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email",
+                  "newPassword",
+                  "otp"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "newPassword": {
+                    "type": "string"
+                  },
+                  "otp": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email",
+                  "newPassword",
+                  "otp"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "newPassword": {
+                    "type": "string"
+                  },
+                  "otp": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email",
+                  "newPassword",
+                  "otp"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/users/me": {
+      "get": {
+        "operationId": "getUsersMe",
+        "responses": {
+          "200": {}
+        }
+      },
+      "delete": {
+        "operationId": "deleteUsersMe",
+        "responses": {
+          "200": {}
+        }
+      },
+      "put": {
+        "parameters": [],
+        "operationId": "putUsersMe",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "phone",
+                  "subteam",
+                  "grade"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "phone",
+                  "subteam",
+                  "grade"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "phone",
+                  "subteam",
+                  "grade"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/users/{userId}": {
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "userId",
+            "required": true
+          }
+        ],
+        "operationId": "putUsersByUserId",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "accountType": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "accountUpdateVersion": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "roles": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "permissions": {
+                          "type": "object",
+                          "properties": {
+                            "generalScouting": {
+                              "type": "boolean"
+                            },
+                            "pitScouting": {
+                              "type": "boolean"
+                            },
+                            "viewMeetings": {
+                              "type": "boolean"
+                            },
+                            "viewScoutingData": {
+                              "type": "boolean"
+                            },
+                            "blogPosts": {
+                              "type": "boolean"
+                            },
+                            "deleteMeetings": {
+                              "type": "boolean"
+                            },
+                            "makeAnnouncements": {
+                              "type": "boolean"
+                            },
+                            "makeMeetings": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "generalScouting",
+                            "pitScouting",
+                            "viewMeetings",
+                            "viewScoutingData",
+                            "blogPosts",
+                            "deleteMeetings",
+                            "makeAnnouncements",
+                            "makeMeetings"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "permissions"
+                      ]
+                    }
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "accountType": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "accountUpdateVersion": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "roles": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "permissions": {
+                          "type": "object",
+                          "properties": {
+                            "generalScouting": {
+                              "type": "boolean"
+                            },
+                            "pitScouting": {
+                              "type": "boolean"
+                            },
+                            "viewMeetings": {
+                              "type": "boolean"
+                            },
+                            "viewScoutingData": {
+                              "type": "boolean"
+                            },
+                            "blogPosts": {
+                              "type": "boolean"
+                            },
+                            "deleteMeetings": {
+                              "type": "boolean"
+                            },
+                            "makeAnnouncements": {
+                              "type": "boolean"
+                            },
+                            "makeMeetings": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "generalScouting",
+                            "pitScouting",
+                            "viewMeetings",
+                            "viewScoutingData",
+                            "blogPosts",
+                            "deleteMeetings",
+                            "makeAnnouncements",
+                            "makeMeetings"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "permissions"
+                      ]
+                    }
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstname": {
+                    "type": "string"
+                  },
+                  "lastname": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "subteam": {
+                    "type": "string"
+                  },
+                  "grade": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "accountType": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "accountUpdateVersion": {
+                    "anyOf": [
+                      {
+                        "format": "numeric",
+                        "default": 0,
+                        "type": "string"
+                      },
+                      {
+                        "type": "number"
+                      }
+                    ]
+                  },
+                  "roles": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "permissions": {
+                          "type": "object",
+                          "properties": {
+                            "generalScouting": {
+                              "type": "boolean"
+                            },
+                            "pitScouting": {
+                              "type": "boolean"
+                            },
+                            "viewMeetings": {
+                              "type": "boolean"
+                            },
+                            "viewScoutingData": {
+                              "type": "boolean"
+                            },
+                            "blogPosts": {
+                              "type": "boolean"
+                            },
+                            "deleteMeetings": {
+                              "type": "boolean"
+                            },
+                            "makeAnnouncements": {
+                              "type": "boolean"
+                            },
+                            "makeMeetings": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "generalScouting",
+                            "pitScouting",
+                            "viewMeetings",
+                            "viewScoutingData",
+                            "blogPosts",
+                            "deleteMeetings",
+                            "makeAnnouncements",
+                            "makeMeetings"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "permissions"
+                      ]
+                    }
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/preview": {
+      "get": {
+        "operationId": "getPreview",
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/reset-password": {
+      "get": {
+        "operationId": "getReset-password",
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/reset": {
+      "post": {
+        "parameters": [],
+        "operationId": "postReset",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "newPassword": {
+                    "type": "string"
+                  },
+                  "confirmNewPassword": {
+                    "type": "string"
+                  },
+                  "otp": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email",
+                  "newPassword",
+                  "confirmNewPassword",
+                  "otp"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "newPassword": {
+                    "type": "string"
+                  },
+                  "confirmNewPassword": {
+                    "type": "string"
+                  },
+                  "otp": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email",
+                  "newPassword",
+                  "confirmNewPassword",
+                  "otp"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "newPassword": {
+                    "type": "string"
+                  },
+                  "confirmNewPassword": {
+                    "type": "string"
+                  },
+                  "otp": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email",
+                  "newPassword",
+                  "confirmNewPassword",
+                  "otp"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/forgot-password": {
+      "get": {
+        "operationId": "getForgot-password",
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/forgot": {
+      "post": {
+        "parameters": [],
+        "operationId": "postForgot",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {}
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
