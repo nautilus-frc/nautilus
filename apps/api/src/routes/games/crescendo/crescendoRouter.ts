@@ -66,6 +66,8 @@ export const crescendoRouter = new Elysia().use(bearer()).group(
 				{
 					response: {
 						200: t.Array(TCrescendoResponse),
+						401: TServerMessage,
+						403: TServerMessage,
 						404: TServerMessage,
 						500: TServerMessage,
 					},
