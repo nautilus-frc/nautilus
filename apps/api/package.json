@@ -3,7 +3,7 @@
 	"version": "1.0.50",
 	"scripts": {
 		"test": "xss-scan",
-		"start": "bun run buildcss && bun run src/index.ts",
+		"start": "bun run build && bun run src/index.ts",
 		"dev": "bun run --watch ./src/index.ts",
 		"build": "bunx tailwindcss -i ./src/index.css -o ./public/index.css"
 	},
