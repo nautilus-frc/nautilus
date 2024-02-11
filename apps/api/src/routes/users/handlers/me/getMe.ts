@@ -1,5 +1,5 @@
 import { Context } from "elysia";
-import { User } from "../../../../models/usersDB/users/UserModel";
+import { User, Users } from "../../../../models/usersDB/users/UserModel";
 import json, { message } from "../../../../util/general/json";
 import { logError } from "../../../../util/general/logging";
 import {
@@ -10,7 +10,13 @@ import {
 export async function getMe(user: User, { set }: Context) {
 	try {
 		set.status = 200;
-		validateUserAttendance(user.attendance);
+		(async function (user: User) {
+			if (user) {
+				const att = await validateUserAttendance(user.attendance);
+				user.attendance = att;
+				await user.save();
+			}
+		})(user);
 		return userResponseToken(user);
 	} catch (e) {
 		set.status = 500;
