@@ -71,8 +71,10 @@ export async function validateUserAttendance(attendance: User["attendance"]) {
 }
 
 export async function userResponseNoToken(user: User) {
-	const att = await validateUserAttendance(user.attendance);
-	await Users.findByIdAndUpdate(user._id, { attendance: att });
+	validateUserAttendance(user.attendance).then((att) => {
+		Users.findByIdAndUpdate(user._id, { attendance: att });
+	});
+
 	const ret = {
 		...user.toObject(),
 		_id: user._id.toString(),
@@ -81,7 +83,6 @@ export async function userResponseNoToken(user: User) {
 		createdAt: undefined,
 		updatedAt: undefined,
 		...formatUserRoles(user.roles, user.accountType),
-		attendance: att,
 	};
 
 	// delete ret.password;
