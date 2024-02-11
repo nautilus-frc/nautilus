@@ -70,11 +70,7 @@ export async function validateUserAttendance(attendance: User["attendance"]) {
 	return out;
 }
 
-export async function userResponseNoToken(user: User) {
-	validateUserAttendance(user.attendance).then((att) => {
-		Users.findByIdAndUpdate(user._id, { attendance: att });
-	});
-
+export function userResponseNoToken(user: User) {
 	const ret = {
 		...user.toObject(),
 		_id: user._id.toString(),
@@ -84,11 +80,6 @@ export async function userResponseNoToken(user: User) {
 		updatedAt: undefined,
 		...formatUserRoles(user.roles, user.accountType),
 	};
-
-	// delete ret.password;
-	// delete ret.__v;
-	// delete ret.createdAt;
-	// delete ret.updatedAt;
 
 	const {
 		password,
@@ -177,9 +168,9 @@ export async function updateManyUsers(
 export type LimitedUserResponse = ReturnType<typeof limitedUserResponse>;
 
 //use with /me routes and login + register
-export async function userResponseToken(user: User) {
+export function userResponseToken(user: User) {
 	return {
-		...(await userResponseNoToken(user)),
+		...userResponseNoToken(user),
 		token: generateToken(user._id.toString()),
 	};
 }
