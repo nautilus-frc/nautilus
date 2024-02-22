@@ -3,6 +3,7 @@ import { Users } from "../../../models/usersDB/users/UserModel";
 import json, { MessageT, message } from "../../../util/general/json";
 import { logError } from "../../../util/general/logging";
 import { UserResponseT, userResponseToken } from "../../../util/users/userUtil";
+import { gradeToGradYear } from "../../../util/users/grade";
 
 interface RegisterParams {
 	body: {
@@ -60,7 +61,7 @@ export async function register({
 			password: hash,
 			phone,
 			subteam,
-			grade,
+			grade: grade ? gradeToGradYear(grade) : grade,
 			accountType: 0,
 		});
 

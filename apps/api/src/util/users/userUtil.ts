@@ -6,6 +6,7 @@ import { ACCOUNT_LEVEL, generateToken } from "./protect";
 import { Meetings } from "../../models/usersDB/meetings/MeetingModel";
 import { logError } from "../general/logging";
 import { usersDB } from "../../config/db";
+import { gradYearToGrade } from "./grade";
 
 type ReturnedUserRoles = {
 	roles: string[];
@@ -90,6 +91,8 @@ export function userResponseNoToken(user: User) {
 		rateLimit,
 		...out
 	} = ret;
+
+	if (out.grade) out.grade = gradYearToGrade(out.grade);
 
 	return out;
 }
