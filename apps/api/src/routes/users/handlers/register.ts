@@ -49,8 +49,7 @@ export async function register({
 		// const salt = await bcrypt.genSalt(10);
 		// const hash = await bcrypt.hash(password, salt);
 		const hash = await Bun.password.hash(password, {
-			algorithm: "bcrypt",
-			cost: 10,
+			algorithm: "argon2id",
 		});
 
 		const user = await Users.create({
