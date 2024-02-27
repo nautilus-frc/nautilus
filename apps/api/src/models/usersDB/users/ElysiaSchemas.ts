@@ -50,7 +50,7 @@ export const TUserWithToken = t.Object({
 	attendance: TUserAttendance,
 	grade: t.Optional(t.Numeric()),
 	permissions: TUserPermissions,
-	phone: t.Optional(t.String()),
+	phone: t.String(),
 } satisfies Record<
 	keyof Awaited<ReturnType<typeof userResponseToken>>,
 	unknown
@@ -69,7 +69,7 @@ export const TUserNoToken = t.Object({
 	attendance: TUserAttendance,
 	grade: t.Optional(t.Numeric()),
 	permissions: TUserPermissions,
-	phone: t.Optional(t.String()),
+	phone: t.String(),
 } satisfies Record<
 	keyof Awaited<ReturnType<typeof userResponseNoToken>>,
 	unknown
