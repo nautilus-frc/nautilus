@@ -115,6 +115,8 @@ export const TLimitedUser = t.Object({
 	"lastname": t.String(),
 	"username": t.String(),
 	"email": t.String(),
+	"phone": t.String(),
+	"grade": t.Optional(t.Number()),
 	"subteam": t.Optional(t.String()),
 	"roles": t.Array(t.String()),
 	"accountType": t.Number(),

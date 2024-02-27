@@ -98,12 +98,15 @@ export function userResponseNoToken(user: User) {
 }
 
 export function limitedUserResponse(user: User) {
+	const grade = user.grade ? gradYearToGrade(user.grade) : undefined;
 	return {
 		_id: user._id.toString(),
 		username: user.username,
 		firstname: user.firstname,
 		lastname: user.lastname,
 		email: user.email,
+		phone: user.phone,
+		grade: grade,
 		subteam: user.subteam,
 		roles: formatUserRoles(user.roles, user.accountType).roles,
 		accountType: user.accountType,
