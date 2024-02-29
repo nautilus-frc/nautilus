@@ -19,7 +19,7 @@ const crescendoSchema = new mongoose.Schema(
 		penaltyPointsEarned: { type: Number, required: true },
 		won: { type: Boolean, required: true },
 		tied: { type: Boolean, required: true },
-		comments: { type: String, required: true, default: "" },
+		comments: { type: String, required: false },
 		defensive: { type: Boolean, required: true },
 		brokeDown: { type: Boolean, required: true },
 		rankingPoints: { type: Number, required: true },
