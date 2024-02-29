@@ -58,7 +58,7 @@ export const crescendoRouter = new Elysia().use(bearer()).group(
 					(
 						await protect(
 							ctx.bearer,
-							ACCOUNT_LEVEL.LEAD,
+							ACCOUNT_LEVEL.BASE,
 							getCrescendos,
 							{ requiredPermissions: ["viewScoutingData"] }
 						)
@@ -73,7 +73,7 @@ export const crescendoRouter = new Elysia().use(bearer()).group(
 					},
 					detail: {
 						description:
-							"Get all scouting submissions for the Crescendo game. Requires lead verification (account level 2+) and permission to view scouting data.",
+							"Get all scouting submissions for the Crescendo game. Requires Base verification (account level 1+) and permission to view scouting data.",
 					},
 				}
 			)
