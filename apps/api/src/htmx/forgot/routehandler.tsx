@@ -7,7 +7,7 @@ export default async function forgotHandler({
 	headers,
 }: Context<{ body: { email: string } }>) {
 	const { email } = body;
-	const host = headers["host"] ?? process.env.HOST ?? "";
+	const host = process.env.HOST ?? "";
 	const { ok, text, code } = await handleForgot(email, host);
 
 	if (!ok) return <ErrorPage message={text} />;
