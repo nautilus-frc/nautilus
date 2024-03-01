@@ -3,6 +3,7 @@ import { Users } from "../../../models/usersDB/users/UserModel";
 import json, { MessageT, message } from "../../../util/general/json";
 import { logError } from "../../../util/general/logging";
 import { UserResponseT, userResponseToken } from "../../../util/users/userUtil";
+import { gradeToGradYear } from "../../../util/users/grade";
 
 interface RegisterParams {
 	body: {
@@ -48,8 +49,7 @@ export async function register({
 		// const salt = await bcrypt.genSalt(10);
 		// const hash = await bcrypt.hash(password, salt);
 		const hash = await Bun.password.hash(password, {
-			algorithm: "bcrypt",
-			cost: 10,
+			algorithm: "argon2id",
 		});
 
 		const user = await Users.create({
@@ -60,7 +60,7 @@ export async function register({
 			password: hash,
 			phone,
 			subteam,
-			grade,
+			grade: grade ? gradeToGradYear(grade) : grade,
 			accountType: 0,
 		});
 

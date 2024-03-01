@@ -6,6 +6,7 @@ import { ACCOUNT_LEVEL, generateToken } from "./protect";
 import { Meetings } from "../../models/usersDB/meetings/MeetingModel";
 import { logError } from "../general/logging";
 import { usersDB } from "../../config/db";
+import { gradYearToGrade } from "./grade";
 
 type ReturnedUserRoles = {
 	roles: string[];
@@ -70,9 +71,7 @@ export async function validateUserAttendance(attendance: User["attendance"]) {
 	return out;
 }
 
-export async function userResponseNoToken(user: User) {
-	const att = await validateUserAttendance(user.attendance);
-	await Users.findByIdAndUpdate(user._id, { attendance: att });
+export function userResponseNoToken(user: User) {
 	const ret = {
 		...user.toObject(),
 		_id: user._id.toString(),
@@ -81,13 +80,7 @@ export async function userResponseNoToken(user: User) {
 		createdAt: undefined,
 		updatedAt: undefined,
 		...formatUserRoles(user.roles, user.accountType),
-		attendance: att,
 	};
-
-	// delete ret.password;
-	// delete ret.__v;
-	// delete ret.createdAt;
-	// delete ret.updatedAt;
 
 	const {
 		password,
@@ -99,16 +92,21 @@ export async function userResponseNoToken(user: User) {
 		...out
 	} = ret;
 
+	if (out.grade) out.grade = gradYearToGrade(out.grade);
+
 	return out;
 }
 
 export function limitedUserResponse(user: User) {
+	const grade = user.grade ? gradYearToGrade(user.grade) : undefined;
 	return {
 		_id: user._id.toString(),
 		username: user.username,
 		firstname: user.firstname,
 		lastname: user.lastname,
 		email: user.email,
+		phone: user.phone,
+		grade: grade,
 		subteam: user.subteam,
 		roles: formatUserRoles(user.roles, user.accountType).roles,
 		accountType: user.accountType,
@@ -176,9 +174,9 @@ export async function updateManyUsers(
 export type LimitedUserResponse = ReturnType<typeof limitedUserResponse>;
 
 //use with /me routes and login + register
-export async function userResponseToken(user: User) {
+export function userResponseToken(user: User) {
 	return {
-		...(await userResponseNoToken(user)),
+		...userResponseNoToken(user),
 		token: generateToken(user._id.toString()),
 	};
 }

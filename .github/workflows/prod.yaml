@@ -5,6 +5,8 @@ on:
     push:
         branches:
             - main
+    release:
+        types: [published]
 
 jobs:
     paths-filter:
@@ -54,7 +56,7 @@ jobs:
                       oven/bun=docker-image://oven/bun:latest
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ghcr.io/nautilus-frc/api:prod
+                  tags: ghcr.io/nautilus-frc/api-prod:latest
             - name: Delete Package Versions
               uses: actions/delete-package-versions@v5.0.0
               with:

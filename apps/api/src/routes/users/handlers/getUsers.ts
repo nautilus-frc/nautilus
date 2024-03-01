@@ -15,7 +15,7 @@ export async function getUsersAdmin({ set, query }: Context) {
 			return message("No users found");
 		}
 		set.status = 200;
-		return await Promise.all(users.map(userResponseNoToken));
+		return users.map(userResponseNoToken);
 	} catch (e) {
 		set.status = 500;
 		logError(`Error accessing user list from database: ${e}`);
