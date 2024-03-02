@@ -115,7 +115,7 @@ export function limitedUserResponse(user: User) {
 	};
 }
 
-export async function findUser(u: string) {
+export async function findUser(u: string): Promise<User | null> {
 	return mongoose.Types.ObjectId.isValid(u)
 		? await Users.findById(u)
 		: await Users.findOne({ $or: [{ username: u }, { email: u }] });

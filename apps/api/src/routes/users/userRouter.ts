@@ -28,6 +28,8 @@ import { deleteMe } from "./handlers/me/deleteMe";
 import { getMe } from "./handlers/me/getMe";
 import updateMe from "./handlers/me/updateMe";
 import { register } from "./handlers/register";
+import assignRoles from "./handlers/[user]/roles/assign";
+import { revokeRoles } from "./handlers/[user]/roles/revoke";
 
 export const usersRouter = new Elysia()
 	.use(bearer())
@@ -349,6 +351,60 @@ export const usersRouter = new Elysia()
 					detail: {
 						description:
 							"Look up user by email, username, or UUID and delete the user's account. Admin access (account level 3+) required",
+					},
+				}
+			)
+			.put(
+				"/:user/roles/assign",
+				async (ctx) =>
+					(
+						await protect(
+							ctx.bearer,
+							ACCOUNT_LEVEL.ADMIN,
+							assignRoles
+						)
+					)(ctx),
+				{
+					body: t.Array(t.String()),
+					response: {
+						201: TUserNoToken,
+						400: TServerMessage,
+						401: TServerMessage,
+						403: TServerMessage,
+						404: TServerMessage,
+						500: TServerMessage,
+					},
+					headers: TAuthHeaders,
+					detail: {
+						description:
+							"Assign a list of roles to a user. Find user by UUID, username, or email. Body must be an array of roles' MongoDB UUIDs. Admin access (account level 3+) required",
+					},
+				}
+			)
+			.put(
+				"/:user/roles/revoke",
+				async (ctx) =>
+					(
+						await protect(
+							ctx.bearer,
+							ACCOUNT_LEVEL.ADMIN,
+							revokeRoles
+						)
+					)(ctx),
+				{
+					body: t.Array(t.String()),
+					response: {
+						201: TUserNoToken,
+						400: TServerMessage,
+						401: TServerMessage,
+						403: TServerMessage,
+						404: TServerMessage,
+						500: TServerMessage,
+					},
+					headers: TAuthHeaders,
+					detail: {
+						description:
+							"Revoke a list of roles to a user. Find user by UUID, username, or email. Body must be an array of roles' MongoDB UUIDs. Admin access (account level 3+) required",
 					},
 				}
 			)
