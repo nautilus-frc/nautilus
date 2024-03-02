@@ -17,12 +17,13 @@ export default async function submitCrescendo(
 ) {
 	try {
 		const teamname = await getTeamName(body.teamNumber);
-		const data = await Crescendos.create({
+		const cr = {
 			...body,
 			createdBy: user._id,
-			comments: `${body.comments}`,
 			teamName: teamname,
-		});
+		};
+		if (body.comments) cr.comments = body.comments;
+		const data = await Crescendos.create(cr);
 		if (!data) {
 			set.status = 500;
 			return {

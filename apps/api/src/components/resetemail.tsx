@@ -30,7 +30,7 @@ export function PasswordResetEmail({
 					</h2>
 					<br></br>
 					<a
-						href={"http://" + host + "/reset-password"}
+						href={"http://" + host + "/pages/reset-password"}
 						style="font-weight:bold;font-size:2rem;color:darkgrey"
 					>
 						Click here to reset your password

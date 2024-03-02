@@ -16,6 +16,7 @@ import { attendanceRouter } from "./routes/attendance/meetingsRouter";
 import { rolesRouter } from "./routes/roles/roleRouter";
 import { seasonRouter } from "./routes/seasons/seasonRouter";
 import { crescendoRouter } from "./routes/games/crescendo/crescendoRouter";
+import { userAttendanceCron } from "./util/users/validateUsersCron";
 
 const PORT = process.env.PORT || 3001;
 
@@ -173,4 +174,5 @@ const _ = new Elysia()
 	.use(htmlPreview) //automatically ignored when node_env is production
 	.use(htmxRouter)
 	.use(crescendoRouter)
+	.use(userAttendanceCron)
 	.listen(PORT);

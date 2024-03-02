@@ -1,10 +1,12 @@
 ---
-name: "ci / staging"
+name: "ci / prod"
 
 on:
     push:
         branches:
-            - staging
+            - main
+    release:
+        types: [published]
 
 jobs:
     paths-filter:
@@ -16,7 +18,7 @@ jobs:
             - uses: dorny/paths-filter@v3
               id: filter
               with:
-                  base: ${{ github.ref.staging }}
+                  base: ${{ github.ref }}
                   filters: |
                       api: 
                           - 'apps/api/**'
@@ -54,7 +56,7 @@ jobs:
                       oven/bun=docker-image://oven/bun:latest
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ghcr.io/nautilus-frc/api-staging:latest
+                  tags: ghcr.io/nautilus-frc/api-prod:latest
             - name: Delete Package Versions
               uses: actions/delete-package-versions@v5.0.0
               with:

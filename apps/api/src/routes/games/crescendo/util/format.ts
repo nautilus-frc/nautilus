@@ -10,7 +10,7 @@ export default function crescendoResponse(data: Crescendo): ICrescendoResponse {
 			speakerNotes: data.auto.speakerNotes,
 		},
 		brokeDown: data.brokeDown,
-		comments: data.comments,
+		comments: data.comments ?? "",
 		competition: data.competition,
 		createdAt: data.createdAt.toISOString(),
 		defensive: data.defensive,

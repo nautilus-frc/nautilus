@@ -37,6 +37,13 @@ export default async function attendMeeting(
 
 		const attendance = await validateUserAttendance(me.attendance);
 
+		if (!(meeting.attendancePeriod in attendance)) {
+			attendance[meeting.attendancePeriod] = {
+				logs: [],
+				totalHoursLogged: 0,
+			};
+		}
+
 		if (
 			attendance[meeting.attendancePeriod].logs.find(
 				(it) => it.meetingId === meetingId
