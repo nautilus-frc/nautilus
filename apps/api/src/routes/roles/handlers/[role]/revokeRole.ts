@@ -7,6 +7,7 @@ import {
 	userResponseNoToken,
 } from "../../../../util/users/userUtil";
 import { User, Users } from "../../../../models/usersDB/users/UserModel";
+import { revokeRoleMongoQuery } from "../../../../util/users/roles/revokeRoleMongo";
 
 export default async function revokeRole({
 	params: { roleId },
@@ -32,13 +33,7 @@ export default async function revokeRole({
 		 */
 		const succesful = await updateManyUsers(
 			users,
-			{
-				$pull: {
-					roles: {
-						id: roleId,
-					},
-				},
-			},
+			revokeRoleMongoQuery(roleId),
 			(it) => !it.roles.find((r) => r.id === roleId)
 		);
 
