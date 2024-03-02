@@ -30,6 +30,7 @@ import updateMe from "./handlers/me/updateMe";
 import { register } from "./handlers/register";
 import assignRoles from "./handlers/[user]/roles/assign";
 import { revokeRoles } from "./handlers/[user]/roles/revoke";
+import { verifyUser } from "./handlers/[user]/verifyUser";
 
 export const usersRouter = new Elysia()
 	.use(bearer())
@@ -351,6 +352,32 @@ export const usersRouter = new Elysia()
 					detail: {
 						description:
 							"Look up user by email, username, or UUID and delete the user's account. Admin access (account level 3+) required",
+					},
+				}
+			)
+			.put(
+				"/:user/verify",
+				async (ctx) =>
+					(
+						await protectAndBind(
+							ctx.bearer,
+							ACCOUNT_LEVEL.LEAD,
+							verifyUser
+						)
+					)(ctx),
+				{
+					response: {
+						200: TUserNoToken,
+						400: TServerMessage,
+						401: TServerMessage,
+						403: TServerMessage,
+						404: TServerMessage,
+						500: TServerMessage,
+					},
+					headers: TAuthHeaders,
+					detail: {
+						description:
+							"Verify a user's account. Admin access (account level 3+) required to verify any user, lead access (account level 2) required to verify users in the same subteam",
 					},
 				}
 			)
