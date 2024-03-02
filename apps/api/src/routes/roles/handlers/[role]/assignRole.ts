@@ -9,6 +9,7 @@ import {
 import { User, Users } from "../../../../models/usersDB/users/UserModel";
 import { UserRoles } from "../../../../models/usersDB/users/UserRoleModel";
 import { it } from "bun:test";
+import { assignRoleMongoQuery } from "../../../../util/users/roles/assignRoleMongoQuery";
 
 export default async function assignRole({
 	params: { roleId },
@@ -57,15 +58,7 @@ export default async function assignRole({
 
 		const successful = await updateManyUsers(
 			users,
-			{
-				$push: {
-					roles: {
-						name: role.name,
-						permissions: role.permissions,
-						id: role._id.toString(),
-					},
-				},
-			},
+			assignRoleMongoQuery(role),
 			(it) => Boolean(it.roles.find((r) => r.id === role._id.toString()))
 		);
 
