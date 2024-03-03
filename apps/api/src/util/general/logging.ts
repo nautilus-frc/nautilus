@@ -1,5 +1,6 @@
 import colors from "colors/safe";
 const LOG_PATH = process.env.LOG_PATH || "api.log";
+const LOG_ERROR_PATH = `error.${LOG_PATH}`;
 
 export async function log(message: string) {
 	const logline = `${new Date().toISOString()} ${message}\n`;
@@ -37,6 +38,14 @@ export async function logError(message: string) {
 	} catch {
 		// If log's file doesn't exist, write new content
 		await Bun.write(LOG_PATH, "".concat(logline));
+	}
+	try {
+		const logs = await Bun.file(LOG_ERROR_PATH).text();
+		// Write (file's content + request's log)
+		await Bun.write(LOG_ERROR_PATH, logs.concat(logline));
+	} catch {
+		// If log's file doesn't exist, write new content
+		await Bun.write(LOG_ERROR_PATH, "".concat(logline));
 	}
 }
 
