@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken";
 import { User, Users } from "../../models/usersDB/users/UserModel";
 import { Context } from "elysia";
 import { MessageT, message } from "../general/json";
-import { logError } from "../general/logging";
+import { log, logError } from "../general/logging";
 import { Permissions } from "../../models/usersDB/users/UserRoleModel";
 import { formatUserRoles } from "../users/userUtil";
 
@@ -65,6 +65,8 @@ export async function protectAndBind<
 		if (!token || !user) {
 			return out(message("Unauthorized: Invalid token"), 403);
 		}
+
+		await log(`Request from user ${user.username}`);
 
 		if (requiredPermissions) {
 			for (const it of requiredPermissions) {
