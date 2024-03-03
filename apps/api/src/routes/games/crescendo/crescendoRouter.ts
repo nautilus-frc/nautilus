@@ -15,6 +15,7 @@ import {
 	TServerMessage,
 } from "../../../models/global/ElysiaModels";
 import getCrescendos, { getMySubmissions } from "./handlers/get";
+import deleteCrescendo from "./handlers/[id]/delete";
 
 export const crescendoRouter = new Elysia().use(bearer()).group(
 	"/crescendo",
@@ -99,5 +100,14 @@ export const crescendoRouter = new Elysia().use(bearer()).group(
 					},
 					headers: TAuthHeaders,
 				}
+			)
+			.delete("/:id", async (ctx) =>
+				(
+					await protect(
+						ctx.bearer,
+						ACCOUNT_LEVEL.SUPERUSER,
+						deleteCrescendo
+					)
+				)(ctx)
 			)
 );
