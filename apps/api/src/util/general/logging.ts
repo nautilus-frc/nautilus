@@ -20,10 +20,13 @@ async function writeToHeapLogs(stats: ReturnType<typeof heapStats>) {
 		heap: stats,
 	};
 	try {
-		const json: unknown = await Bun.file(HEAP_STATS_LOG).json();
+		const text = await Bun.file(HEAP_STATS_LOG).text();
+		const json: unknown = JSON.parse(text);
 		if (Array.isArray(json)) {
-			const updated = json.push(newEntry);
+			const updated = [...json, newEntry];
 			await Bun.write(HEAP_STATS_LOG, JSON.stringify(updated, null, 2));
+		} else {
+			throw "meow";
 		}
 	} catch {
 		await Bun.write(HEAP_STATS_LOG, JSON.stringify([newEntry], null, 2));
@@ -36,13 +39,16 @@ async function writeToSnapshotLogs(snapshot: HeapSnapshot) {
 		snapshot: snapshot,
 	};
 	try {
-		const json: unknown = await Bun.file(HEAP_SNAPSHOT_LOG).json();
+		const text = await Bun.file(HEAP_SNAPSHOT_LOG).text();
+		const json: unknown = JSON.parse(text);
 		if (Array.isArray(json)) {
-			const updated = json.push(newEntry);
+			const updated = [...json, newEntry];
 			await Bun.write(
 				HEAP_SNAPSHOT_LOG,
 				JSON.stringify(updated, null, 2)
 			);
+		} else {
+			throw "meow";
 		}
 	} catch {
 		await Bun.write(HEAP_SNAPSHOT_LOG, JSON.stringify([newEntry], null, 2));
