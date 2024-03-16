@@ -5,7 +5,13 @@ import { Elysia } from "elysia";
 import { scoutingDB, usersDB } from "./config/db";
 import { usersRouter } from "./routes/users/userRouter";
 import json, { isJson, message } from "./util/general/json";
-import { log, logError, logSuccess, logWarning } from "./util/general/logging";
+import {
+	log,
+	logError,
+	logMemory,
+	logSuccess,
+	logWarning,
+} from "./util/general/logging";
 import { htmlPreview } from "./components/htmlPreview";
 import "@kitajs/html/register";
 import staticPlugin from "@elysiajs/static";
@@ -17,6 +23,7 @@ import { rolesRouter } from "./routes/roles/roleRouter";
 import { seasonRouter } from "./routes/seasons/seasonRouter";
 import { crescendoRouter } from "./routes/games/crescendo/crescendoRouter";
 import { userAttendanceCron } from "./util/users/validateUsersCron";
+import cron from "@elysiajs/cron";
 
 const PORT = process.env.PORT || 3001;
 
@@ -175,4 +182,13 @@ const _ = new Elysia()
 	.use(htmxRouter)
 	.use(crescendoRouter)
 	.use(userAttendanceCron)
+	.use(
+		cron({
+			name: "logMemoryUsage",
+			pattern: "* * * * *",
+			async run() {
+				await logMemory();
+			},
+		})
+	)
 	.listen(PORT);
