@@ -185,9 +185,9 @@ const _ = new Elysia()
 	.use(
 		cron({
 			name: "logMemoryUsage",
-			pattern: "* * * * *",
+			pattern: "*/30 * * * *",
 			async run() {
-				await logMemory();
+				logMemory();
 			},
 		})
 	)

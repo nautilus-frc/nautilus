@@ -6,12 +6,13 @@ const LOG_PATH = process.env.LOG_PATH || "api.log";
 const LOG_ERROR_PATH = `error.${LOG_PATH}`;
 const HEAP_STATS_LOG = LOG_PATH + ".heap.json";
 const HEAP_SNAPSHOT_LOG = LOG_PATH + ".heap.snapshot.json";
+const MAX_ENTRIES = 24; //logs every 30 minutes -> past 12 hours of logs
 
 export async function logMemory() {
 	const heapSnapshot = generateHeapSnapshot();
 	const stats = heapStats();
-	await writeToHeapLogs(stats);
-	await writeToSnapshotLogs(heapSnapshot);
+	writeToHeapLogs(stats);
+	writeToSnapshotLogs(heapSnapshot);
 }
 
 async function writeToHeapLogs(stats: ReturnType<typeof heapStats>) {
@@ -23,10 +24,10 @@ async function writeToHeapLogs(stats: ReturnType<typeof heapStats>) {
 		const text = await Bun.file(HEAP_STATS_LOG).text();
 		const json: unknown = JSON.parse(text);
 		if (Array.isArray(json)) {
-			const updated = [...json, newEntry];
+			const updated = [...json.slice(-MAX_ENTRIES, undefined), newEntry];
 			await Bun.write(HEAP_STATS_LOG, JSON.stringify(updated, null, 2));
 		} else {
-			throw "meow";
+			throw "Data on file is invalid";
 		}
 	} catch {
 		await Bun.write(HEAP_STATS_LOG, JSON.stringify([newEntry], null, 2));
@@ -42,13 +43,13 @@ async function writeToSnapshotLogs(snapshot: HeapSnapshot) {
 		const text = await Bun.file(HEAP_SNAPSHOT_LOG).text();
 		const json: unknown = JSON.parse(text);
 		if (Array.isArray(json)) {
-			const updated = [...json, newEntry];
+			const updated = [...json.slice(-MAX_ENTRIES, undefined), newEntry];
 			await Bun.write(
 				HEAP_SNAPSHOT_LOG,
 				JSON.stringify(updated, null, 2)
 			);
 		} else {
-			throw "meow";
+			throw "Data on file is invalid";
 		}
 	} catch {
 		await Bun.write(HEAP_SNAPSHOT_LOG, JSON.stringify([newEntry], null, 2));
